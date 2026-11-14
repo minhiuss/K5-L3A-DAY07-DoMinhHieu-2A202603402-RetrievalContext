@@ -1,0 +1,916 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "In Google Docs, how do you turn on the mode that records each collaborator's edits?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Google Docs suggest edits mode track changes",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:204:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 204,
+            "text": "Figure 3.62 (a) Google's version of Track Changes is called Suggesting mode. (b) When you make an edit to the document, you can also add comments to other users about the edit. (Google Docs is a trademark of Google LLC.) Reviewing Suggested Edits",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.7714064853545152,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:185:3.6:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 185,
+            "text": "Figure 3.40 Track changes, or Suggesting, is accessed not from a menu, but from a drop-down menu on the right side of the document screen. (Google Docs is a trademark of Google LLC.)\nThrough the Tools menu (Figure 3.41), you can choose Review suggested edits, which allows you to view the suggested edits one by one and choose whether you'd like to accept or reject them. The Tools menu also contains the Preferences window, which offers some of the general settings for your documents, such as whether to use Smart Quotes and autocapitalization. (In Word, the Preferences are contained in the File menu, which is covered in the chapter on Essentials of Software Applications for Business.",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.7343872785568237,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:203:3.8:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 203,
+            "text": "The key to making sure your colleagues can make these suggested changes in the first place is to make sure they know to turn on Suggesting mode when they begin working on the document. You can either inform your colleagues about this manually or share the document with them in Comment-only mode by selecting Commenter when you share the document with them.\n3.8 • Collaborative Editing and Reviewing in Google Docs 193",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.6882162094116211,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:204:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 204]\nFigure 3.62 (a) Google's version of Track Changes is called Suggesting mode. (b) When you make an edit to the document, you can also add comments to other users about the edit. (Google Docs is a trademark of Google LLC.) Reviewing Suggested Edits",
+        "context_ids": [
+          "B:204:3.8:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "enable Suggesting mode Google Docs toolbar",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:185:3.6:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 185,
+            "text": "Figure 3.40 Track changes, or Suggesting, is accessed not from a menu, but from a drop-down menu on the right side of the document screen. (Google Docs is a trademark of Google LLC.)\nThrough the Tools menu (Figure 3.41), you can choose Review suggested edits, which allows you to view the suggested edits one by one and choose whether you'd like to accept or reject them. The Tools menu also contains the Preferences window, which offers some of the general settings for your documents, such as whether to use Smart Quotes and autocapitalization. (In Word, the Preferences are contained in the File menu, which is covered in the chapter on Essentials of Software Applications for Business.",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.5458482178540109,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:203:3.8:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 203,
+            "text": "The key to making sure your colleagues can make these suggested changes in the first place is to make sure they know to turn on Suggesting mode when they begin working on the document. You can either inform your colleagues about this manually or share the document with them in Comment-only mode by selecting Commenter when you share the document with them.\n3.8 • Collaborative Editing and Reviewing in Google Docs 193",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.5255593344235826,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:203:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 203,
+            "text": "Figure 3.61 Using the Explore tool lets you add citations rapidly. (Google Docs is a trademark of Google LLC.) Suggesting Mode",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.5170855213948783,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:204:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 204]\nFigure 3.62 (a) Google's version of Track Changes is called Suggesting mode. (b) When you make an edit to the document, you can also add comments to other users about the edit. (Google Docs is a trademark of Google LLC.) Reviewing Suggested Edits\n\n[B:203:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 203]\nFigure 3.61 Using the Explore tool lets you add citations rapidly. (Google Docs is a trademark of Google LLC.) Suggesting Mode",
+        "context_ids": [
+          "B:204:3.8:0",
+          "B:203:3.8:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "how to switch to Suggesting mode Google Docs Editing button",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:203:3.8:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 203,
+            "text": "The key to making sure your colleagues can make these suggested changes in the first place is to make sure they know to turn on Suggesting mode when they begin working on the document. You can either inform your colleagues about this manually or share the document with them in Comment-only mode by selecting Commenter when you share the document with them.\n3.8 • Collaborative Editing and Reviewing in Google Docs 193",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.6169372797012329,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:185:3.6:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 185,
+            "text": "Figure 3.40 Track changes, or Suggesting, is accessed not from a menu, but from a drop-down menu on the right side of the document screen. (Google Docs is a trademark of Google LLC.)\nThrough the Tools menu (Figure 3.41), you can choose Review suggested edits, which allows you to view the suggested edits one by one and choose whether you'd like to accept or reject them. The Tools menu also contains the Preferences window, which offers some of the general settings for your documents, such as whether to use Smart Quotes and autocapitalization. (In Word, the Preferences are contained in the File menu, which is covered in the chapter on Essentials of Software Applications for Business.",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.607715368270874,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:204:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 204,
+            "text": "Figure 3.62 (a) Google's version of Track Changes is called Suggesting mode. (b) When you make an edit to the document, you can also add comments to other users about the edit. (Google Docs is a trademark of Google LLC.) Reviewing Suggested Edits",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.5841828236470934,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:204:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 204]\nFigure 3.62 (a) Google's version of Track Changes is called Suggesting mode. (b) When you make an edit to the document, you can also add comments to other users about the edit. (Google Docs is a trademark of Google LLC.) Reviewing Suggested Edits\n\n[B:203:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 203]\nFigure 3.61 Using the Explore tool lets you add citations rapidly. (Google Docs is a trademark of Google LLC.) Suggesting Mode",
+        "context_ids": [
+          "B:204:3.8:0",
+          "B:203:3.8:0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Google Docs suggest edits mode track changes"
+      },
+      {
+        "tool_call": "enable Suggesting mode Google Docs toolbar"
+      },
+      {
+        "tool_call": "how to switch to Suggesting mode Google Docs Editing button"
+      },
+      {
+        "text": "The passages only state that Google's version of Track Changes is called Suggesting mode [B:204:3.8:0], but they do not explain how to turn it on. INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 4,
+    "searches": 3,
+    "tokens_in": 2368,
+    "tokens_out": 210,
+    "cost_usd": 0.00087,
+    "seconds": 3.96,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat",
+      "first_query_original": false,
+      "partial_ok": false
+    }
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "If I make a copy of an older version of a Doc, do its comments and history come with it?",
+    "filter": null,
+    "status": "answered",
+    "answer": "No — when a copy is made of any version of a document, it is saved as a new Doc without the version history attached, and the comments and suggestions are also not copied [B:212:3.9:1].",
+    "citations": [
+      "B:212:3.9:1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "make a copy of a document comments and version history",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:212:3.9:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 212,
+            "text": "Having copies of the same file, but as different versions, is an option if you want to download these versions to your business's computer desktop or hard drive, instead of keeping them online. Having a different version can also be useful if you want to send this version to a client or any third party. When a copy is made of any version of a document, it is saved as a new Doc, without the version history attached to it. The comments and suggestions are also not copied.",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.6488863052265327,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:207:3.9:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 207,
+            "text": "There are many user-friendly options in Docs's versioning, as you can clearly see all of the changes created within each version, as well as the time stamps for when each version was made. With this versioning technology, your team can edit a document simultaneously, and everyone will see the changes happening and what changes were made before you started working with the document. You will also see when other collaborators add or edit the text. This sharing of the views of the document adds accountability to the work on the final version of the document. It can be used to enhance communication about the rationale for suggestions when comments are used. In Word, there are fewer options for accessing and using version history features, but they do exist if you keep your documents stored on ",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.6168154567214041,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:211:3.9:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 211,
+            "text": "After you finish your document, you might have named some of the versions, and you might just want to see only the named versions on the Version History sidebar. You can toggle the unidentified versions on and off, on the top of the sidebar with the option Only show named versions, as you can see in Figure 3.68. Figure 3.68 The named versions might be the most important or relevant ones. (Google Docs is a trademark of Google LLC.) Making a Copy of a Version\nTo make a copy of a version, you will also use the context menu for the specific version. The menu has the option to make a copy, in which you can make a new separate file from this document. (It is like Save As in 3.9 • Versions and Version History 201",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.569535119644375,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:212:3.9:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 212]\nHaving copies of the same file, but as different versions, is an option if you want to download these versions to your business's computer desktop or hard drive, instead of keeping them online. Having a different version can also be useful if you want to send this version to a client or any third party. When a copy is made of any version of a document, it is saved as a new Doc, without the version history attached to it. The comments and suggestions are also not copied.",
+        "context_ids": [
+          "B:212:3.9:1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "make a copy of a document comments and version history"
+      },
+      {
+        "text": "No — when a copy is made of any version of a document, it is saved as a new Doc without the version history attached, and the comments and suggestions are also not copied [B:212:3.9:1]."
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1088,
+    "tokens_out": 127,
+    "cost_usd": 0.000433,
+    "seconds": 1.67,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat",
+      "first_query_original": false,
+      "partial_ok": false
+    }
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "With desktop Word, how many earlier versions of a file can I open, and what is required?",
+    "filter": null,
+    "status": "answered",
+    "answer": "You can access the last 25 versions of your file, provided you sign in to your Microsoft account and the file is stored on OneDrive [B:215:3.9:0].",
+    "citations": [
+      "B:215:3.9:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Word open earlier versions of a file version history",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:215:3.9:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 215,
+            "text": "Figure 3.73 The version history in Microsoft Word desktop is activated if the document is located in OneDrive. (Used with permission from Microsoft)\nIf you have a desktop version of Word, you have to sign in to your Microsoft account. You will be able to access the last 25 versions of your file on OneDrive (that is, if your file is stored on OneDrive), as you can see in Figure 3.74.\n3.9 • Versions and Version History 205",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.7081287118234849,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:216:3.9:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 216,
+            "text": "You can access your version histories in Word by going to the File tab and selecting History. If you have a Microsoft 365 Word subscription, you can access the version history by going to the File tab, then Info, followed by Version History. There you can see the versions available and browse through them. You can also choose to restore a previous version, as Figure 3.75 shows. Moreover, if you have SharePoint Server or SharePoint365, the possibilities of versioning are much more powerful, allowing as many as 500 versions to be retained, as you can track a version's history, view multiple earlier iterations, determine who can edit or write on the files, control the number of versions stored, and more.\n206 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.6969020158975744,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:214:3.9:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 214,
+            "text": "Figure 3.72 (a) The versions are both time and date stamped. (b) You can restore to a particular version, make a copy of the version, or rename the version. (Google Docs is a trademark of Google LLC.)\nTo quickly see new changes in a file, Docs has a See New Changes alert. It appears where the date normally appears, next to the Help menu. If you select that, you'll be able to see the recent changes from other editors—specifically, you will see all the changes that you haven't seen since the last time you opened the file. This functionality is useful for quickly and easily seeing changes from collaborators without having to access the version history.\nVersioning in Microsoft Word",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.6758040391148343,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:215:3.9:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 215]\nFigure 3.73 The version history in Microsoft Word desktop is activated if the document is located in OneDrive. (Used with permission from Microsoft)\nIf you have a desktop version of Word, you have to sign in to your Microsoft account. You will be able to access the last 25 versions of your file on OneDrive (that is, if your file is stored on OneDrive), as you can see in Figure 3.74.\n3.9 • Versions and Version History 205",
+        "context_ids": [
+          "B:215:3.9:0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Word open earlier versions of a file version history"
+      },
+      {
+        "text": "You can access the last 25 versions of your file, provided you sign in to your Microsoft account and the file is stored on OneDrive [B:215:3.9:0]."
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1087,
+    "tokens_out": 83,
+    "cost_usd": 0.000385,
+    "seconds": 1.95,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat",
+      "first_query_original": false,
+      "partial_ok": false
+    }
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "Why can wider line spacing help when several people are reviewing a draft?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "wider line spacing multiple reviewers draft comments",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:156:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 156,
+            "text": "The line spacing can vary throughout the document. It does not have to be consistent. You can, at any point, change the line spacing by selecting the text you want to apply the different spacing to, and then selecting the spacing from the Line Spacing tool on the Home tab. But keep in mind the professionalism of the document you are preparing. It is not advisable to vary the line spacing throughout the document, as that can impact the readability of the report. It can also look as if you did not take care to ensure consistency in formatting when preparing the report. However, if you have a few sentences that need to stand out for some reason—such as a table caption, or a block quote—having these elements set with a different line spacing might be appropriate. 146 3 • Creating and Working i",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.496948689404209,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:164:3.3:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 164,
+            "text": "Figure 3.16 The Paragraph command group offers a variety of line spacing options in (a) a drop-down menu or (b) in more detail in a dialog box. (Used with permission from Microsoft)",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.4456997546136534,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:163:3.3:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 163,
+            "text": "As you learned in Formatting Document Layout in Microsoft Word, line spacing determines how much space there is between the lines of text within a document. There are different advantages to single-spacing versus double-spacing. Most business documents, such as emails and printed letters, use single-spacing. This means that each line of text comes right after the other, with very little space between them. However, double-spacing may be used in working documents, and can be useful when there are multiple collaborators and you are using Track Changes. This allows for better visibility for the changes or edits, and makes it easier to see the revisions in progress. Double-spacing means that there is a complete line of space between lines. In addition to single-and double-spacing, users can us",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.43942973378719563,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:164:3.3:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 164]\nFigure 3.16 The Paragraph command group offers a variety of line spacing options in (a) a drop-down menu or (b) in more detail in a dialog box. (Used with permission from Microsoft)",
+        "context_ids": [
+          "B:164:3.3:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "line spacing room for handwritten comments reviewers",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:163:3.3:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 163,
+            "text": "As you learned in Formatting Document Layout in Microsoft Word, line spacing determines how much space there is between the lines of text within a document. There are different advantages to single-spacing versus double-spacing. Most business documents, such as emails and printed letters, use single-spacing. This means that each line of text comes right after the other, with very little space between them. However, double-spacing may be used in working documents, and can be useful when there are multiple collaborators and you are using Track Changes. This allows for better visibility for the changes or edits, and makes it easier to see the revisions in progress. Double-spacing means that there is a complete line of space between lines. In addition to single-and double-spacing, users can us",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.4981740714207854,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:156:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 156,
+            "text": "The line spacing can vary throughout the document. It does not have to be consistent. You can, at any point, change the line spacing by selecting the text you want to apply the different spacing to, and then selecting the spacing from the Line Spacing tool on the Home tab. But keep in mind the professionalism of the document you are preparing. It is not advisable to vary the line spacing throughout the document, as that can impact the readability of the report. It can also look as if you did not take care to ensure consistency in formatting when preparing the report. However, if you have a few sentences that need to stand out for some reason—such as a table caption, or a block quote—having these elements set with a different line spacing might be appropriate. 146 3 • Creating and Working i",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.49286630792222663,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:205:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 205,
+            "text": "filled with suggestions, it might be hard to read, so this feature is highly recommended, as it simplifies the process of reviewing.",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.4697513896375074,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:164:3.3:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 164]\nFigure 3.16 The Paragraph command group offers a variety of line spacing options in (a) a drop-down menu or (b) in more detail in a dialog box. (Used with permission from Microsoft)\n\n[B:205:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 205]\nfilled with suggestions, it might be hard to read, so this feature is highly recommended, as it simplifies the process of reviewing.",
+        "context_ids": [
+          "B:164:3.3:0",
+          "B:205:3.8:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "line spacing reviewers edit draft easier to read",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:163:3.3:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 163,
+            "text": "As you learned in Formatting Document Layout in Microsoft Word, line spacing determines how much space there is between the lines of text within a document. There are different advantages to single-spacing versus double-spacing. Most business documents, such as emails and printed letters, use single-spacing. This means that each line of text comes right after the other, with very little space between them. However, double-spacing may be used in working documents, and can be useful when there are multiple collaborators and you are using Track Changes. This allows for better visibility for the changes or edits, and makes it easier to see the revisions in progress. Double-spacing means that there is a complete line of space between lines. In addition to single-and double-spacing, users can us",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5790245109505808,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:156:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 156,
+            "text": "The line spacing can vary throughout the document. It does not have to be consistent. You can, at any point, change the line spacing by selecting the text you want to apply the different spacing to, and then selecting the spacing from the Line Spacing tool on the Home tab. But keep in mind the professionalism of the document you are preparing. It is not advisable to vary the line spacing throughout the document, as that can impact the readability of the report. It can also look as if you did not take care to ensure consistency in formatting when preparing the report. However, if you have a few sentences that need to stand out for some reason—such as a table caption, or a block quote—having these elements set with a different line spacing might be appropriate. 146 3 • Creating and Working i",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5357783000403138,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:190:3.7:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 190,
+            "text": "Figure 3.46 The line spacing formatting options give the user more options than the standard paragraph line spacing. (Google Docs is a trademark of Google LLC.)",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.5193804657274625,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:164:3.3:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 164]\nFigure 3.16 The Paragraph command group offers a variety of line spacing options in (a) a drop-down menu or (b) in more detail in a dialog box. (Used with permission from Microsoft)\n\n[B:205:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 205]\nfilled with suggestions, it might be hard to read, so this feature is highly recommended, as it simplifies the process of reviewing.\n\n[B:190:3.7:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 190]\nFigure 3.46 The line spacing formatting options give the user more options than the standard paragraph line spacing. (Google Docs is a trademark of Google LLC.)",
+        "context_ids": [
+          "B:164:3.3:0",
+          "B:205:3.8:0",
+          "B:190:3.7:0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "wider line spacing multiple reviewers draft comments"
+      },
+      {
+        "tool_call": "line spacing room for handwritten comments reviewers"
+      },
+      {
+        "tool_call": "line spacing reviewers edit draft easier to read"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 4,
+    "searches": 3,
+    "tokens_in": 2355,
+    "tokens_out": 203,
+    "cost_usd": 0.000859,
+    "seconds": 3.36,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat",
+      "first_query_original": false,
+      "partial_ok": false
+    }
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "In Microsoft Word, where do you go to adjust the margins of a page?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The Layout tab contains the Page Setup command group, where you can adjust margins (along with paper size and orientation) [B:153:3.2:3].",
+    "citations": [
+      "B:153:3.2:3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Word adjust page margins Layout tab Margins",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:153:3.2:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 153,
+            "text": "The Layout tab contains commands and tools for adjusting the overall page setup of your document, located within the Page Setup command group. Page setup typically includes adjusting the paper size, margins, and orientation, as well as adding features like section breaks and columns. There are accepted standards for 3.2 • Formatting Document Layout in Microsoft Word 143",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.620420776580527,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:153:3.2:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 153,
+            "text": "Setting the page layout for your document in Microsoft Word allows you to present material in a way that maximizes ease of use. Page layout includes setting margins and page size, choosing the page orientation, introducing features like columns, and breaking up a document into sections so that different parts can have different formats applied. These functions can be accessed using the tools on the Layout tab (see Figure 3.6). Figure 3.6 The Layout tab has clearly defined drop-down menus and buttons for its page layout tools. (Used with permission from Microsoft)\nPage Setup",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5805106413060055,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:155:3.2:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 155,
+            "text": "You may encounter projects that need different margins on different pages, or unconventional margins—that is, custom margins.\nTo adjust the margins of a page, go to the Layout tab. Select the Margins icon, and a drop-down menu will appear. The default margin is Normal (1 inch on all sides), but this can be adjusted via the prepopulated options, such as for different layouts with narrower margins. If you want to set your own margins, choose the Custom Margins option at the bottom of the drop-down menu. In the dialog box shown in Figure 3.7, notice how you can adjust the margins to be various measurements.",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5646703839302063,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:153:3.2:3 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 153]\nThe Layout tab contains commands and tools for adjusting the overall page setup of your document, located within the Page Setup command group. Page setup typically includes adjusting the paper size, margins, and orientation, as well as adding features like section breaks and columns. There are accepted standards for 3.2 • Formatting Document Layout in Microsoft Word 143",
+        "context_ids": [
+          "B:153:3.2:3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Word adjust page margins Layout tab Margins"
+      },
+      {
+        "text": "The Layout tab contains the Page Setup command group, where you can adjust margins (along with paper size and orientation) [B:153:3.2:3]."
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1046,
+    "tokens_out": 77,
+    "cost_usd": 0.000367,
+    "seconds": 2.14,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat",
+      "first_query_original": false,
+      "partial_ok": false
+    }
+  },
+  {
+    "query_id": "q21",
+    "split": "test",
+    "answerable": false,
+    "question": "Can a user export only the images embedded in a document?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "export only images embedded in document",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:167:3.3:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 167,
+            "text": "de of it. If the image functions more as a design element, such as a logo or photo to add interest, you might have the text wrap around it.\n3.3 • Formatting Document Content in Microsoft Word 157",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.34557656374117407,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:153:3.1:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 153,
+            "text": "images that have been formatted and processed electronically. Hence, Word is a word processor, a type of program that contains a number of different text formatting capabilities for producing primarily text-based files and documents. This is an important distinction, as you can create any number of different text-based files in several different programs.",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.3135572671890259,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:174:3.4:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 174,
+            "text": "Figure 3.28 Document protections can be added by restricting editing to certain components of a document, or to limited levels of editing. (Used with permission from Microsoft)\nFigure 3.29 (a) Formatting restrictions can get quite detailed; however, they're important to set to keep your document's style from becoming inconsistent. (b) Editing restrictions for other users can range from allowing others to work freely, to work in Track Changes, or to \"read only\" and not make any changes. (Used with permission from Microsoft) 164 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.4",
+              "platform": "microsoft_word"
+            },
+            "score": 0.27319201827049255,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:167:3.3:3 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 167]\nde of it. If the image functions more as a design element, such as a logo or photo to add interest, you might have the text wrap around it.\n3.3 • Formatting Document Content in Microsoft Word 157\n\n[B:153:3.1:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 153]\nimages that have been formatted and processed electronically. Hence, Word is a word processor, a type of program that contains a number of different text formatting capabilities for producing primarily text-based files and documents. This is an important distinction, as you can create any number of different text-based files in several different programs.",
+        "context_ids": [
+          "B:167:3.3:3",
+          "B:153:3.1:0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "export only images embedded in document"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1106,
+    "tokens_out": 82,
+    "cost_usd": 0.000389,
+    "seconds": 1.9,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat",
+      "first_query_original": false,
+      "partial_ok": false
+    }
+  },
+  {
+    "query_id": "q22",
+    "split": "test",
+    "answerable": false,
+    "question": "Can I keep editing a Google Doc while offline, without internet?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Google Docs offline editing",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:198:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 198,
+            "text": "3.8 Collaborative Editing and Reviewing in Google Docs\nLearning Objectives\nBy the end of this section, you will be able to:\n• Use the Tools menu and collaboration functionality\nGoogle Docs has many desirable features, but one of its biggest strengths as a word processing software 188 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.5505556671817907,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:199:3.8:4",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 199,
+            "text": "Before sending or sharing any document in the workplace, you want to make sure it is as error-free as possible. You can do that by accessing the features of the Spelling and grammar command in the Tools menu. The dialog box shown in Figure 3.57 has the same functionality and overall feel as Word, and it operates in the same way, too, resolving each incident one-by-one.\n3.8 • Collaborative Editing and Reviewing in Google Docs 189",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.5066225226746495,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:199:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 199,
+            "text": "program is its ability to facilitate collaboration among multiple users. People like to use Docs for the ease of sharing documents, tagging contacts, and inserting internet-enabled comments because these features make working together easy. Microsoft Office has these capabilities as well, but because Google is free to use, many people and small businesses prefer it. Nevertheless, many businesses use both because some features function better in one product, and other features function better in the other. Google's collaboration features have been part of the apps from their inception. These features allow real-time edits to be seen by other users. In the early drafts of the market trends report, you will use Docs for collaboration, because many in your department are more familiar with the",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.49555942442659084,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:198:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 198]\n3.8 Collaborative Editing and Reviewing in Google Docs\nLearning Objectives\nBy the end of this section, you will be able to:\n• Use the Tools menu and collaboration functionality\nGoogle Docs has many desirable features, but one of its biggest strengths as a word processing software 188 3 • Creating and Working in Documents",
+        "context_ids": [
+          "B:198:3.8:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Google Docs offline mode enable edit without internet",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:203:3.8:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 203,
+            "text": "The key to making sure your colleagues can make these suggested changes in the first place is to make sure they know to turn on Suggesting mode when they begin working on the document. You can either inform your colleagues about this manually or share the document with them in Comment-only mode by selecting Commenter when you share the document with them.\n3.8 • Collaborative Editing and Reviewing in Google Docs 193",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.3893395662307739,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:199:3.8:4",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 199,
+            "text": "Before sending or sharing any document in the workplace, you want to make sure it is as error-free as possible. You can do that by accessing the features of the Spelling and grammar command in the Tools menu. The dialog box shown in Figure 3.57 has the same functionality and overall feel as Word, and it operates in the same way, too, resolving each incident one-by-one.\n3.8 • Collaborative Editing and Reviewing in Google Docs 189",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.3812631666660309,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:198:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 198,
+            "text": "3.8 Collaborative Editing and Reviewing in Google Docs\nLearning Objectives\nBy the end of this section, you will be able to:\n• Use the Tools menu and collaboration functionality\nGoogle Docs has many desirable features, but one of its biggest strengths as a word processing software 188 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.3696035898204365,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:198:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 198]\n3.8 Collaborative Editing and Reviewing in Google Docs\nLearning Objectives\nBy the end of this section, you will be able to:\n• Use the Tools menu and collaboration functionality\nGoogle Docs has many desirable features, but one of its biggest strengths as a word processing software 188 3 • Creating and Working in Documents",
+        "context_ids": [
+          "B:198:3.8:0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Google Docs offline editing"
+      },
+      {
+        "tool_call": "Google Docs offline mode enable edit without internet"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 3,
+    "searches": 2,
+    "tokens_in": 1626,
+    "tokens_out": 90,
+    "cost_usd": 0.000538,
+    "seconds": 3.28,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat",
+      "first_query_original": false,
+      "partial_ok": false
+    }
+  }
+]

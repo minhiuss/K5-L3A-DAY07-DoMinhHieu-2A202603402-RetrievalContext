@@ -31,3 +31,50 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+
+---
+
+## Bài làm — Đỗ Minh Hiếu (2A202603402)
+
+Báo cáo: [report/individual/2A202603402_DoMinhHieu.md](report/individual/2A202603402_DoMinhHieu.md) · Phiếu chấm tay test: [report/grading_test.md](report/grading_test.md)
+
+**Cấu hình chốt (I1):** hybrid RRF (pgvector dense + TF-IDF), top-k 3, context budget 2400 ký tự, tối đa 3 lượt tìm, DeepSeek `deepseek-chat`.
+
+### Cần có
+- Python 3.11+, Docker Desktop đang chạy, database pgvector của Day06 (`docker compose -p day6_student_starter start`, cổng 15433, bảng `chunks`, strategy `B`).
+- `.env` ở gốc repo (không commit): `DATABASE_URL=postgresql://...@127.0.0.1:15433/day6_lab` và `DEEPSEEK_API_KEY=...`.
+- Repo Day06 nằm cạnh repo này (để `src/export_day6.py` đọc `benchmark/questions.json`).
+
+### Chạy (PowerShell, từ gốc repo)
+```powershell
+python -m venv C:\venvs\day07; C:\venvs\day07\Scripts\Activate.ps1
+python -m pip install -r requirements.txt               # phiên bản đã dùng
+$env:PYTHONUTF8 = "1"                                   # Windows: đọc/ghi UTF-8
+python -m unittest discover -s tests -v                 # test mock của đề
+python src/export_day6.py                               # 212 chunk B + 20 câu Day06 → starter/data/day6/
+python starter/convert_day6.py --chunks starter/data/day6/chunks.json --questions starter/data/day6/questions.json --output starter/data/converted
+python src/make_cases.py                                # benchmark/cases.json (24 câu, không gold)
+python src/eval_retrieval.py --split dev                # 5 cấu hình retrieval trên dev
+python src/run_agent_bench.py --split dev --method dense --budget 800 --name M1
+python src/run_agent_bench.py --split dev --method hybrid --budget 2400 --name I1
+python src/run_agent_bench.py --split dev --method hybrid --budget 2400 --first-query-original --partial-ok --name I3
+# sau khi chốt I1:
+python src/eval_retrieval.py --split test --configs M1-dense I1-hybrid-b2400
+python src/run_agent_bench.py --split test --method dense --budget 800 --name M1
+python src/run_agent_bench.py --split test --method hybrid --budget 2400 --name I1
+python src/grades_to_reviews.py                         # report/grading_test.md → reviews.json
+python starter/agent_metrics.py --cases benchmark/cases.json --traces starter/results/agent-test-I1/traces.json --reviews starter/results/agent-test-I1/reviews.json --split test --output starter/results/agent-test-I1/summary.json
+```
+
+### File
+| File | Việc |
+|---|---|
+| `src/export_day6.py` | Đọc bảng pgvector Day06 + câu hỏi Day06 → JSON |
+| `src/make_cases.py` | `benchmark/questions_all.json` (có gold) → `benchmark/cases.json` (không gold, cho agent) |
+| `src/retrievers.py` | `DenseRetriever` (pgvector), `LexicalRetriever` (TF-IDF), `HybridRetriever` (RRF) |
+| `src/eval_retrieval.py` | Hit@1, Evidence Hit@3, Context Evidence Rate theo cấu hình |
+| `src/controller.py` | `LLMController.decide`: DeepSeek + tool `search` |
+| `src/run_agent_bench.py` | Chạy `run_agent` trên từng câu, ghi trace + mẫu chấm |
+| `src/grades_to_reviews.py` | Nhãn tay → `reviews.json` cho `agent_metrics.py` |
+
+Kết quả nằm ở `starter/results/` (bị `.gitignore` chặn mặc định, đã thêm bằng `git add -f`). Dữ liệu sách: OpenStax, CC BY-NC-SA 4.0; `starter/data/` không push (tái tạo bằng lệnh trên).

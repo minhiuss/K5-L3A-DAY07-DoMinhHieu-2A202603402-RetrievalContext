@@ -1,0 +1,208 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Is Microsoft Word a sophisticated word processing application?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "What is the growth rate of the laptop industry?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "In Google Docs, as you are writing the report, what can Docs help with for the references?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Which Word tab contains font formatting, alignment, headings and the Find commands?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What text size and page borders are normally expected in a business report?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "How does the paper size used in Europe differ from the one used in the United States?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "In which case should the WorldCorp market trends report be fully justified?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Can I rely on spell-check to catch a correctly spelled word used in the wrong place?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "In Microsoft Word, how do you add a comment to a piece of text?",
+    "filter": {
+      "platform": "microsoft_word"
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "How can I switch between seeing everyone's edits and a clean copy of the document?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "What does Paste without formatting do?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "In Google Docs, where do you find the Page Setup commands?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "To set text in two columns, do I have to select the whole section first?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Does every document theme use the same default body font?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Does Google Docs save my changes on its own, and is there any condition?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "In Google Docs, how do you turn on the mode that records each collaborator's edits?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "If I make a copy of an older version of a Doc, do its comments and history come with it?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "With desktop Word, how many earlier versions of a file can I open, and what is required?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Why can wider line spacing help when several people are reviewing a draft?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "In Microsoft Word, where do you go to adjust the margins of a page?",
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "question": "Can a user export only the images embedded in a document?",
+    "filter": null,
+    "answerable": false,
+    "expected_behavior": "search_and_abstain"
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "question": "Can I keep editing a Google Doc while offline, without internet?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "answerable": false,
+    "expected_behavior": "search_and_abstain"
+  },
+  {
+    "id": "q23",
+    "split": "dev",
+    "question": "In Google Docs, how do you type by voice?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "answerable": false,
+    "expected_behavior": "search_and_abstain"
+  },
+  {
+    "id": "q24",
+    "split": "dev",
+    "question": "In Microsoft Word, how do you run a mail merge for many letters?",
+    "filter": {
+      "platform": "microsoft_word"
+    },
+    "answerable": false,
+    "expected_behavior": "search_and_abstain"
+  }
+]

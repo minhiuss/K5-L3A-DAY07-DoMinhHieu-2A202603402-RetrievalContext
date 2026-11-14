@@ -1,0 +1,57 @@
+[
+  {
+    "query_id": "q16",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "agent trich dung va tra loi dung"
+  },
+  {
+    "query_id": "q17",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "chunk p212 chua nguyen cau evidence, tra loi du 2 y"
+  },
+  {
+    "query_id": "q18",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "chunk p215 co 25 versions va dieu kien OneDrive, tra loi du dieu kien"
+  },
+  {
+    "query_id": "q19",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "query viet lai khong ra chunk p163, context khong co evidence, agent tu choi"
+  },
+  {
+    "query_id": "q20",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "chunk p155 dung evidence, tra loi Layout tab va margins icon"
+  },
+  {
+    "query_id": "q21",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "pdf khong noi ve export anh, agent tu choi, khong doan"
+  },
+  {
+    "query_id": "q22",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "pdf khong co offline, agent tu choi, khong doan"
+  }
+]

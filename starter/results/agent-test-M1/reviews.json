@@ -1,0 +1,55 @@
+[
+  {
+    "query_id": "q16",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "agent trich dung vi tri page nhung sai chunk va khong tra loi"
+  },
+  {
+    "query_id": "q17",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "agent tim chinh xac vi tri page va trich dan dung paragraph chua thong tin"
+  },
+  {
+    "query_id": "q18",
+    "context_grade": 2,
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "agent tim chinh xac vi tri page va trich dan dung paragraph chua thong tin"
+  },
+  {
+    "query_id": "q19",
+    "context_grade": 0,
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "agent khong tim dung chunk, khong tra loi"
+  },
+  {
+    "query_id": "q20",
+    "context_grade": 1,
+    "answer_grade": 1,
+    "citation_support": [
+      true
+    ],
+    "reason": "context chuan nam o trang 155 va describe closest answer cho cau hoi. agent tra loi dung mot phan"
+  },
+  {
+    "query_id": "q21",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "pdf khong chua phan nao noi ve extract only images -> agent khong tra loi la dung"
+  },
+  {
+    "query_id": "q22",
+    "abstention_correct": true,
+    "citation_support": [],
+    "reason": "pdf khong co muc ve offline, agent tu choi, khong doan"
+  }
+]

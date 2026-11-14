@@ -1,0 +1,39 @@
+{
+  "M1-dense": {
+    "method": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "hypothesis": "Baseline: Day06 config C (chunk B + platform filter) via pgvector.",
+    "N": 5,
+    "hit1": 3,
+    "hit3": 3,
+    "context_hit": 2,
+    "avg_context_chars": 547,
+    "median_ms": 60.4,
+    "cost_usd": 0,
+    "misses_hit3": [
+      "q16",
+      "q20"
+    ],
+    "misses_context": [
+      "q16",
+      "q19",
+      "q20"
+    ]
+  },
+  "I1-hybrid-b2400": {
+    "method": "hybrid",
+    "top_k": 3,
+    "budget_chars": 2400,
+    "hypothesis": "Budget 800 fits ~1 chunk B (up to ~800 chars) → evidence at rank 2-3 is cut; 2400 keeps all 3.",
+    "N": 5,
+    "hit1": 3,
+    "hit3": 5,
+    "context_hit": 5,
+    "avg_context_chars": 1868,
+    "median_ms": 68.6,
+    "cost_usd": 0,
+    "misses_hit3": [],
+    "misses_context": []
+  }
+}

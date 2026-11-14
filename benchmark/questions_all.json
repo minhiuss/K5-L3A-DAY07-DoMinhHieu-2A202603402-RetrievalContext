@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "corpus": "openstax-wss-ch3 (PDF pages 148-218)",
+    "page_numbering": "gold_page = physical PDF page (pypdf index + 1). Printed footer number = PDF page - 10.",
+    "split_rule": "Fixed before any retrieval run: q01-q15 dev, q16-q20 test. Test must not be used to tune strategies.",
+    "filter_field": "platform: microsoft_word (sections 3.1-3.4), google_docs (3.6-3.8), general (3.5, 3.9). Value comes from the section title and is given by the question wording before retrieval.",
+    "types": "direct = wording close to the book; paraphrase = different words, same meaning; conditional = answer depends on a condition or exception; filter = question names the platform and uses a metadata filter.",
+    "authorship": "q01-q03 written by the student; q04-q20 drafted with AI help (Claude) and checked by the student against the PDF. Evidence quotes verified by exact match on extracted text.",
+    "leakage_risk": "q20 (Word margins) is close to dev q05 and q12 (margins, Docs page setup); q16 (Docs Suggesting mode) is close to dev q10 (Word markup). Same topics, different platform or wording.",
+    "selection_rule": "Fixed 2026-11-14 before any retrieval run. Choose on DEV only: 1) highest Evidence Hit@3; 2) tie -> highest Hit@1; 3) tie -> better filter compliance on dev filter questions (q03, q09, q12); 4) tie -> fewer chunks / faster ingest. A gap of 1 question (1/15) counts as a tie. Test is run once after the choice and is not used to change it.",
+    "absent_questions": "q21 written by the student; q22-q24 drafted with AI help (Claude) and checked by keyword search on the extracted text. Split: q23, q24 dev; q21, q22 test. No gold for these."
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "direct",
+      "question": "Is Microsoft Word a sophisticated word processing application?",
+      "expected_answer": "Yes, Microsoft Word is a sophisticated word processing application.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 148,
+      "evidence_quote": "Microsoft Word is a sophisticated word processing application.",
+      "filter": null
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "direct",
+      "question": "What is the growth rate of the laptop industry?",
+      "expected_answer": "Slow: laptop sales are expected to grow around 1% annually.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 148,
+      "evidence_quote": "The laptop industry is growing at a rather slow rate with sales expected to grow around 1% annually.",
+      "filter": null
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "filter",
+      "question": "In Google Docs, as you are writing the report, what can Docs help with for the references?",
+      "expected_answer": "You can cite the source and Docs does the formatting of the reference.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 200,
+      "evidence_quote": "As you are writing the report, you can cite the source, and have Docs do the formatting of the reference.",
+      "filter": {
+        "platform": "google_docs"
+      }
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "direct",
+      "question": "Which Word tab contains font formatting, alignment, headings and the Find commands?",
+      "expected_answer": "The Home tab.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 149,
+      "evidence_quote": "The Home tab is where you will spend most of your time, as it contains the formatting of fonts, alignment, headings, numbering, and lists, as well as the Find commands.",
+      "filter": null
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "What text size and page borders are normally expected in a business report?",
+      "expected_answer": "A 12-point body font and one-inch margins on all sides.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 154,
+      "evidence_quote": "a 12-point font for body text (Calibri, Times New Roman, and Cambria are some popular fonts), and one-inch margins on all sides (top, bottom, left, right) are typically standard.",
+      "filter": null
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "How does the paper size used in Europe differ from the one used in the United States?",
+      "expected_answer": "The US uses letter size (8.5 x 11 inches); Europe and East Asia use A4 (8.25 x 11.75 inches).",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 157,
+      "evidence_quote": "the United States uses standard letter size (8.5 inches wide by 11 inches long), whereas Europe and East Asia typically use A4 size (8.25 inches wide by 11.75 inches long).",
+      "filter": null
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "conditional",
+      "question": "In which case should the WorldCorp market trends report be fully justified?",
+      "expected_answer": "When it is submitted for publication in an industry journal.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 165,
+      "evidence_quote": "if you submit your WorldCorp market trends report for publication in an industry journal, it should be fully justified.",
+      "filter": null
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "conditional",
+      "question": "Can I rely on spell-check to catch a correctly spelled word used in the wrong place?",
+      "expected_answer": "No. Spell-check does not always catch misused words, so you still need to proofread.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 170,
+      "evidence_quote": "It should be noted that spell-check will not always check when a word is misused.",
+      "filter": null
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "filter",
+      "question": "In Microsoft Word, how do you add a comment to a piece of text?",
+      "expected_answer": "Select the text, then choose New Comment on the Review tab.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 170,
+      "evidence_quote": "To add a comment, select the segment of text in question, and then select New Comment from the Review tab",
+      "filter": {
+        "platform": "microsoft_word"
+      }
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "How can I switch between seeing everyone's edits and a clean copy of the document?",
+      "expected_answer": "Toggle between No Markup and All Markup in the Tracking command group.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 172,
+      "evidence_quote": "You can toggle between No Markup and All Markup to see tracked and clean versions of a document",
+      "filter": null
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "direct",
+      "question": "What does Paste without formatting do?",
+      "expected_answer": "It pastes only the text, without the source formatting such as font, font size or color.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 181,
+      "evidence_quote": "Paste without formatting is a useful tool for copying and pasting text only, without any of the source formatting (such as font, font size, or color).",
+      "filter": null
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "filter",
+      "question": "In Google Docs, where do you find the Page Setup commands?",
+      "expected_answer": "In the File menu, near the bottom.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 197,
+      "evidence_quote": "In Docs, it is all done from the File menu; Page Setup is near the bottom of the File menu.",
+      "filter": {
+        "platform": "google_docs"
+      }
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "conditional",
+      "question": "To set text in two columns, do I have to select the whole section first?",
+      "expected_answer": "No. Column formatting applies to the section or paragraph the cursor is in; select paragraphs only if you want several of them.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 192,
+      "evidence_quote": "You do not have to do anything like selecting the whole section or document because the column formatting will apply to the section or paragraph you are in.",
+      "filter": null
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "paraphrase",
+      "question": "Does every document theme use the same default body font?",
+      "expected_answer": "No. Different themes have different Normal font settings.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 177,
+      "evidence_quote": "Different themes have different Normal font settings.",
+      "filter": null
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "conditional",
+      "question": "Does Google Docs save my changes on its own, and is there any condition?",
+      "expected_answer": "Yes, it autosaves every change, as long as you are connected to the internet.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 207,
+      "evidence_quote": "Docs has a feature that, as long as you are connected to the internet, autosaves every change you make to the file.",
+      "filter": null
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "type": "filter",
+      "question": "In Google Docs, how do you turn on the mode that records each collaborator's edits?",
+      "expected_answer": "Open the Editing drop-down menu at the top right of the window and choose Suggesting.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 203,
+      "evidence_quote": "To turn on Suggesting mode, go to the top right of the Docs window and look for the drop-down menu that says Editing.",
+      "filter": {
+        "platform": "google_docs"
+      }
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "type": "conditional",
+      "question": "If I make a copy of an older version of a Doc, do its comments and history come with it?",
+      "expected_answer": "No. The copy is a new Doc without the version history, and comments and suggestions are not copied.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 212,
+      "evidence_quote": "When a copy is made of any version of a document, it is saved as a new Doc, without the version history attached to it. The comments and suggestions are also not copied.",
+      "filter": null
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "type": "conditional",
+      "question": "With desktop Word, how many earlier versions of a file can I open, and what is required?",
+      "expected_answer": "The last 25 versions, but only if the file is stored on OneDrive (and you are signed in to your Microsoft account).",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 215,
+      "evidence_quote": "You will be able to access the last 25 versions of your file on OneDrive (that is, if your file is stored on OneDrive)",
+      "filter": null
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "paraphrase",
+      "question": "Why can wider line spacing help when several people are reviewing a draft?",
+      "expected_answer": "Double-spacing gives better visibility of the edits and makes revisions in progress easier to see.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 163,
+      "evidence_quote": "This allows for better visibility for the changes or edits, and makes it easier to see the revisions in progress.",
+      "filter": null
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "filter",
+      "question": "In Microsoft Word, where do you go to adjust the margins of a page?",
+      "expected_answer": "The Layout tab, then the Margins icon.",
+      "gold_source_id": "openstax-wss-ch3",
+      "gold_page": 155,
+      "evidence_quote": "To adjust the margins of a page, go to the Layout tab.",
+      "filter": null
+    },
+    {
+      "id": "q21",
+      "split": "test",
+      "type": "absent",
+      "question": "Can a user export only the images embedded in a document?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Searched extracted text of PDF p.148-218 for 'export', 'extract', 'save image': 0 hits. Images are only inserted/formatted, never exported. Written by the student.",
+      "filter": null
+    },
+    {
+      "id": "q22",
+      "split": "test",
+      "type": "absent",
+      "question": "Can I keep editing a Google Doc while offline, without internet?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "Book only says Docs autosaves 'as long as you are connected to the internet' (p.207); 'offline' has 0 hits. Near-topic trap: answer would be a guess.",
+      "filter": {
+        "platform": "google_docs"
+      }
+    },
+    {
+      "id": "q23",
+      "split": "dev",
+      "type": "absent",
+      "question": "In Google Docs, how do you type by voice?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "'voice', 'dictat' have 0 hits in p.148-218.",
+      "filter": {
+        "platform": "google_docs"
+      }
+    },
+    {
+      "id": "q24",
+      "split": "dev",
+      "type": "absent",
+      "question": "In Microsoft Word, how do you run a mail merge for many letters?",
+      "answerable": false,
+      "expected_behavior": "search_and_abstain",
+      "absence_reason": "'mail merge' has 0 hits in p.148-218.",
+      "filter": {
+        "platform": "microsoft_word"
+      }
+    }
+  ]
+}

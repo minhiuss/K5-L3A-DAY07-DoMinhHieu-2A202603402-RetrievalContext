@@ -1,0 +1,173 @@
+[
+  {
+    "query_id": "q16",
+    "question": "In Google Docs, how do you turn on the mode that records each collaborator's edits?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "results": [
+      {
+        "id": "B:203:3.8:2",
+        "page": 203,
+        "score": 0.5869806655060859,
+        "hit": false
+      },
+      {
+        "id": "B:198:3.8:0",
+        "page": 198,
+        "score": 0.5663350999948213,
+        "hit": false
+      },
+      {
+        "id": "B:181:3.6:1",
+        "page": 181,
+        "score": 0.554052915927595,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:203:3.8:2",
+      "B:181:3.6:1"
+    ],
+    "context_chars": 697,
+    "ms": 94.7383999991871,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "question": "If I make a copy of an older version of a Doc, do its comments and history come with it?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:212:3.9:1",
+        "page": 212,
+        "score": 0.686098715248666,
+        "hit": true
+      },
+      {
+        "id": "B:207:3.9:1",
+        "page": 207,
+        "score": 0.6339875270728039,
+        "hit": false
+      },
+      {
+        "id": "B:207:3.9:0",
+        "page": 207,
+        "score": 0.5934172449534313,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:212:3.9:1"
+    ],
+    "context_chars": 549,
+    "ms": 60.43689999933122,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q18",
+    "question": "With desktop Word, how many earlier versions of a file can I open, and what is required?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:215:3.9:0",
+        "page": 215,
+        "score": 0.6822454929351807,
+        "hit": true
+      },
+      {
+        "id": "B:216:3.9:1",
+        "page": 216,
+        "score": 0.6074028249142881,
+        "hit": false
+      },
+      {
+        "id": "B:214:3.9:0",
+        "page": 214,
+        "score": 0.5778595805168152,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:215:3.9:0"
+    ],
+    "context_chars": 499,
+    "ms": 71.96979999935138,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "question": "Why can wider line spacing help when several people are reviewing a draft?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:163:3.3:1",
+        "page": 163,
+        "score": 0.5943669080734253,
+        "hit": true
+      },
+      {
+        "id": "B:156:3.2:1",
+        "page": 156,
+        "score": 0.5265764594078064,
+        "hit": false
+      },
+      {
+        "id": "B:190:3.7:0",
+        "page": 190,
+        "score": 0.5029273629188538,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:190:3.7:0"
+    ],
+    "context_chars": 235,
+    "ms": 59.7979000012856,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q20",
+    "question": "In Microsoft Word, where do you go to adjust the margins of a page?",
+    "filter": {
+      "platform": "microsoft_word"
+    },
+    "results": [
+      {
+        "id": "B:153:3.2:3",
+        "page": 153,
+        "score": 0.6837075133672341,
+        "hit": false
+      },
+      {
+        "id": "B:155:3.2:1",
+        "page": 155,
+        "score": 0.681179840494405,
+        "hit": false
+      },
+      {
+        "id": "B:153:3.2:2",
+        "page": 153,
+        "score": 0.6648057502739727,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:153:3.2:3",
+      "B:155:3.2:1"
+    ],
+    "context_chars": 756,
+    "ms": 56.849000000511296,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

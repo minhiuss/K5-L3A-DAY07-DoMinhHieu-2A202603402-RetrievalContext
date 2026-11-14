@@ -1,0 +1,503 @@
+[
+  {
+    "query_id": "q01",
+    "question": "Is Microsoft Word a sophisticated word processing application?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:148:3.1:0",
+        "page": 148,
+        "score": 0.4079746826276557,
+        "hit": true
+      },
+      {
+        "id": "B:153:3.1:1",
+        "page": 153,
+        "score": 0.17002978805269653,
+        "hit": false
+      },
+      {
+        "id": "B:151:3.1:3",
+        "page": 151,
+        "score": 0.15941634429529805,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:148:3.1:0"
+    ],
+    "context_chars": 755,
+    "ms": 1.3681999989785254,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q02",
+    "question": "What is the growth rate of the laptop industry?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:148:3.1:2",
+        "page": 148,
+        "score": 0.4991832012558783,
+        "hit": true
+      },
+      {
+        "id": "B:168:3.3:1",
+        "page": 168,
+        "score": 0.23632046347323604,
+        "hit": false
+      },
+      {
+        "id": "B:188:3.7:0",
+        "page": 188,
+        "score": 0.1527959761500649,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:188:3.7:0"
+    ],
+    "context_chars": 764,
+    "ms": 0.9655000030761585,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "question": "In Google Docs, as you are writing the report, what can Docs help with for the references?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "results": [
+      {
+        "id": "B:200:3.8:3",
+        "page": 200,
+        "score": 0.2949785901431729,
+        "hit": true
+      },
+      {
+        "id": "B:201:3.8:0",
+        "page": 201,
+        "score": 0.2941128695735207,
+        "hit": false
+      },
+      {
+        "id": "B:198:3.7:0",
+        "page": 198,
+        "score": 0.26434694255141344,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:200:3.8:3"
+    ],
+    "context_chars": 447,
+    "ms": 2.298999999766238,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q04",
+    "question": "Which Word tab contains font formatting, alignment, headings and the Find commands?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:149:3.1:0",
+        "page": 149,
+        "score": 0.31878585079144367,
+        "hit": true
+      },
+      {
+        "id": "B:161:3.3:1",
+        "page": 161,
+        "score": 0.22859936994031035,
+        "hit": false
+      },
+      {
+        "id": "B:151:3.1:2",
+        "page": 151,
+        "score": 0.22720212213553334,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:161:3.3:1"
+    ],
+    "context_chars": 787,
+    "ms": 1.33790000109002,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "question": "What text size and page borders are normally expected in a business report?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:159:3.2:3",
+        "page": 159,
+        "score": 0.17369884078667305,
+        "hit": false
+      },
+      {
+        "id": "B:159:3.2:2",
+        "page": 159,
+        "score": 0.1506078556602264,
+        "hit": false
+      },
+      {
+        "id": "B:211:3.9:1",
+        "page": 211,
+        "score": 0.148282732271364,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:159:3.2:2"
+    ],
+    "context_chars": 534,
+    "ms": 1.327600002696272,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "question": "How does the paper size used in Europe differ from the one used in the United States?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:157:3.2:1",
+        "page": 157,
+        "score": 0.23323003639673537,
+        "hit": true
+      },
+      {
+        "id": "B:197:3.7:1",
+        "page": 197,
+        "score": 0.2175299076684023,
+        "hit": false
+      },
+      {
+        "id": "B:150:3.1:2",
+        "page": 150,
+        "score": 0.17678172657528646,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:150:3.1:2"
+    ],
+    "context_chars": 373,
+    "ms": 1.1537999962456524,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q07",
+    "question": "In which case should the WorldCorp market trends report be fully justified?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:165:3.3:1",
+        "page": 165,
+        "score": 0.3513864539213137,
+        "hit": true
+      },
+      {
+        "id": "B:165:3.3:0",
+        "page": 165,
+        "score": 0.2982060318917384,
+        "hit": false
+      },
+      {
+        "id": "B:148:3.1:1",
+        "page": 148,
+        "score": 0.19659206791484235,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:165:3.3:1"
+    ],
+    "context_chars": 475,
+    "ms": 1.080299996829126,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q08",
+    "question": "Can I rely on spell-check to catch a correctly spelled word used in the wrong place?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:170:3.4:0",
+        "page": 170,
+        "score": 0.38836760813295784,
+        "hit": true
+      },
+      {
+        "id": "B:169:3.4:3",
+        "page": 169,
+        "score": 0.295235610026675,
+        "hit": false
+      },
+      {
+        "id": "B:200:3.8:0",
+        "page": 200,
+        "score": 0.14238504707286043,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:170:3.4:0"
+    ],
+    "context_chars": 428,
+    "ms": 1.2895000036223792,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q09",
+    "question": "In Microsoft Word, how do you add a comment to a piece of text?",
+    "filter": {
+      "platform": "microsoft_word"
+    },
+    "results": [
+      {
+        "id": "B:171:3.4:0",
+        "page": 171,
+        "score": 0.3924854045957078,
+        "hit": false
+      },
+      {
+        "id": "B:170:3.4:3",
+        "page": 170,
+        "score": 0.3267866682011871,
+        "hit": true
+      },
+      {
+        "id": "B:150:3.1:2",
+        "page": 150,
+        "score": 0.23424667198053994,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:171:3.4:0"
+    ],
+    "context_chars": 656,
+    "ms": 1.2974999990547076,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "question": "How can I switch between seeing everyone's edits and a clean copy of the document?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:205:3.8:2",
+        "page": 205,
+        "score": 0.16820119350973617,
+        "hit": false
+      },
+      {
+        "id": "B:211:3.9:2",
+        "page": 211,
+        "score": 0.14574600269056073,
+        "hit": false
+      },
+      {
+        "id": "B:214:3.9:0",
+        "page": 214,
+        "score": 0.12656811267098136,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:205:3.8:2"
+    ],
+    "context_chars": 474,
+    "ms": 1.1916000003111549,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "question": "What does Paste without formatting do?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:154:3.2:4",
+        "page": 154,
+        "score": 0.14883749282228387,
+        "hit": false
+      },
+      {
+        "id": "B:181:3.6:0",
+        "page": 181,
+        "score": 0.13687451262308542,
+        "hit": true
+      },
+      {
+        "id": "B:181:3.6:1",
+        "page": 181,
+        "score": 0.13677280488892907,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:181:3.6:1"
+    ],
+    "context_chars": 202,
+    "ms": 0.596199999563396,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "question": "In Google Docs, where do you find the Page Setup commands?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "results": [
+      {
+        "id": "B:197:3.7:1",
+        "page": 197,
+        "score": 0.31881499158818527,
+        "hit": true
+      },
+      {
+        "id": "B:197:3.7:0",
+        "page": 197,
+        "score": 0.26104001901134366,
+        "hit": false
+      },
+      {
+        "id": "B:198:3.7:0",
+        "page": 198,
+        "score": 0.23103978866200225,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:197:3.7:0"
+    ],
+    "context_chars": 266,
+    "ms": 1.2575000000651926,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "question": "To set text in two columns, do I have to select the whole section first?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:192:3.7:0",
+        "page": 192,
+        "score": 0.4196329985624951,
+        "hit": true
+      },
+      {
+        "id": "B:192:3.7:1",
+        "page": 192,
+        "score": 0.2721935252382766,
+        "hit": false
+      },
+      {
+        "id": "B:158:3.2:1",
+        "page": 158,
+        "score": 0.23877457115693615,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:192:3.7:1"
+    ],
+    "context_chars": 526,
+    "ms": 1.223500003106892,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q14",
+    "question": "Does every document theme use the same default body font?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:177:3.5:1",
+        "page": 177,
+        "score": 0.28299389738243885,
+        "hit": true
+      },
+      {
+        "id": "B:176:3.5:3",
+        "page": 176,
+        "score": 0.2547664681725597,
+        "hit": false
+      },
+      {
+        "id": "B:178:3.5:0",
+        "page": 178,
+        "score": 0.22130037766659352,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:177:3.5:1"
+    ],
+    "context_chars": 726,
+    "ms": 0.9923999969032593,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q15",
+    "question": "Does Google Docs save my changes on its own, and is there any condition?",
+    "filter": null,
+    "results": [
+      {
+        "id": "B:206:3.8:0",
+        "page": 206,
+        "score": 0.17014953826887866,
+        "hit": false
+      },
+      {
+        "id": "B:210:3.9:0",
+        "page": 210,
+        "score": 0.1670562766884322,
+        "hit": false
+      },
+      {
+        "id": "B:184:3.6:2",
+        "page": 184,
+        "score": 0.15416395610901548,
+        "hit": false
+      }
+    ],
+    "context_ids": [
+      "B:206:3.8:0"
+    ],
+    "context_chars": 325,
+    "ms": 1.170399998954963,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

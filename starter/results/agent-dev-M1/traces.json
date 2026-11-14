@@ -1,0 +1,2267 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "answerable": true,
+    "question": "Is Microsoft Word a sophisticated word processing application?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Microsoft Word sophisticated word processing application",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:153:3.1:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 153,
+            "text": "images that have been formatted and processed electronically. Hence, Word is a word processor, a type of program that contains a number of different text formatting capabilities for producing primarily text-based files and documents. This is an important distinction, as you can create any number of different text-based files in several different programs.",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.6208622455596924,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:148:3.1:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 148,
+            "text": "3.1 Navigating Microsoft Word\nLearning Objectives\nBy the end of this section, you will be able to:\n• Identify the most commonly used tabs in Microsoft Word\n• Use the Navigation pane\nMicrosoft Word is a sophisticated word processing application. It completely transformed the document- creation process, replacing typewriters and existing word processing programs, such as WordPerfect and WordStar, with a user-friendly digital interface and hundreds of options for formatting. The comprehensive features allow users to easily adjust fonts and page layouts, insert graphics, track revisions, communicate collaboratively via comments, check spelling, search for text, and much more.",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5536921620368958,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:153:3.1:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 153,
+            "text": "There will be times when you may not have access to Word or another word processing program. Many computers, and even some portable devices, will come with a preinstalled basic text processing as part of their operating system. Notepad is one example. While you will not be able to format the text (not even bold, italic, or underline), you can capture basic text information and save it as a basic text file (.txt) to your computer. This can be useful for jotting down quick notes—hence the name Notepad. Then, later, when you have access to Word, you can copy and paste the text from Notepad into Word, where you can format it and incorporate it into other documents if needed.",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5527105331420898,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:153:3.1:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 153]\nimages that have been formatted and processed electronically. Hence, Word is a word processor, a type of program that contains a number of different text formatting capabilities for producing primarily text-based files and documents. This is an important distinction, as you can create any number of different text-based files in several different programs.",
+        "context_ids": [
+          "B:153:3.1:0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Microsoft Word sophisticated word processing application"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1021,
+    "tokens_out": 49,
+    "cost_usd": 0.00033,
+    "seconds": 1.7,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "answerable": true,
+    "question": "What is the growth rate of the laptop industry?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "laptop industry growth rate",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:148:3.1:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 148,
+            "text": "The laptop industry is growing at a rather slow rate with sales expected to grow around 1% annually. Sales in the industry currently are over $20 billion. A large part of sales comes from consumer demand. There are several key players in the laptop industry. The largest companies in the industry in terms of consumer laptop ownership in the United States (market share) are HP, Dell, Apple, Acer, and Lenovo. Individuals can purchase a laptop at various price points based on the features, speed, and storage capabilities of the laptop. These companies also compete in the tablet industry and some consumers might make the decision to choose a tablet over a laptop. There are also laptops that are considered \"convertible,\" meaning that they can be more like a tablet or a laptop with the screen fea",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.6801539659500122,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:168:3.3:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 168,
+            "text": "For example, let's assume you want to add an image of one of WorldCorp's products to the market trends report. As you may recall, WorldCorp sells products such as computer accessories, laptops, and TVs. When discussing trends in the laptop industry, you may want to include a picture of a laptop from a top-selling brand in the industry, such as HP. To insert the image into the report, place your cursor in the area of the report where you want the image. Then, copy and paste the image into the market trends report. Then, from the Layout tab, select the Wrap Text tool and select the appropriate text wrapping style to present a professional look for the inserted picture. The Wrap Text tool can also be accessed by right-clicking on the inserted image or figure, as shown in Figure 3.21.",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.32357768275870846,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:192:3.7:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 192,
+            "text": "For the WorldCorp market trends report, let's try two columns for the two paragraphs in the Industry and Market Analysis section. This might make sense if we want to add a chart or a table of data below the text. Begin by selecting the body text that you want to format. Then, go to the Format menu using the steps outlined above and place the paragraphs into two columns. It should now look like Figure 3.50. 182 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.3144161198859252,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:192:3.7:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 192]\nFor the WorldCorp market trends report, let's try two columns for the two paragraphs in the Industry and Market Analysis section. This might make sense if we want to add a chart or a table of data below the text. Begin by selecting the body text that you want to format. Then, go to the Format menu using the steps outlined above and place the paragraphs into two columns. It should now look like Figure 3.50. 182 3 • Creating and Working in Documents",
+        "context_ids": [
+          "B:192:3.7:1"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "laptop industry growth rate"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1061,
+    "tokens_out": 48,
+    "cost_usd": 0.000339,
+    "seconds": 1.72,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "answerable": true,
+    "question": "In Google Docs, as you are writing the report, what can Docs help with for the references?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "status": "answered",
+    "answer": "Google Docs' Explore command is an automated feature used in conjunction with citations, letting you add citations rapidly [B:200:3.8:1][B:203:3.8:0].",
+    "citations": [
+      "B:200:3.8:1",
+      "B:203:3.8:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Google Docs citations references bibliography",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:203:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 203,
+            "text": "Figure 3.61 Using the Explore tool lets you add citations rapidly. (Google Docs is a trademark of Google LLC.) Suggesting Mode",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.5874389059878058,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:200:3.8:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 200,
+            "text": "Citations are what give credit to sources. Sources should receive credit for contributing to your report, but citations are also vital to avoid plagiarism. Citations appear in many different kinds of documents, from educational papers to business plans. As you learned in Navigating Google Docs, Google's Explore command is an automated feature that is used in conjunction with citations. Word has a similar command called Smart Lookup, but it only allows you to search the internet, not get autogenerated citations.",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.5709157501559555,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:201:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 201,
+            "text": "Figure 3.58 The Explore button is a gateway to formatting references. (Google Docs is a trademark of Google LLC.) A sidebar will appear, where you can once again search for the source in a Google Search (Figure 3.59). When you have found the referenced site again, just use the Google Search feature of citation formatting. Figure 3.59 The right side of the figure shows the references for the highlighted information. (Google Docs is a trademark of Google LLC.)\nThen, click on Cite as footnote on the Google Search Explore sidebar (Figure 3.60).\n3.8 • Collaborative Editing and Reviewing in Google Docs 191",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.5623838231106015,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:203:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 203]\nFigure 3.61 Using the Explore tool lets you add citations rapidly. (Google Docs is a trademark of Google LLC.) Suggesting Mode\n\n[B:200:3.8:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 200]\nCitations are what give credit to sources. Sources should receive credit for contributing to your report, but citations are also vital to avoid plagiarism. Citations appear in many different kinds of documents, from educational papers to business plans. As you learned in Navigating Google Docs, Google's Explore command is an automated feature that is used in conjunction with citations. Word has a similar command called Smart Lookup, but it only allows you to search the internet, not get autogenerated citations.",
+        "context_ids": [
+          "B:203:3.8:0",
+          "B:200:3.8:1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Google Docs citations references bibliography"
+      },
+      {
+        "text": "Google Docs' Explore command is an automated feature used in conjunction with citations, letting you add citations rapidly [B:200:3.8:1][B:203:3.8:0]."
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1136,
+    "tokens_out": 81,
+    "cost_usd": 0.000396,
+    "seconds": 2.49,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which Word tab contains font formatting, alignment, headings and the Find commands?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Word Home tab font formatting alignment headings Find",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:166:3.3:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 166,
+            "text": "Open a blank Word document and type in the first three headings from the list above. For each header, select the text, go to the Styles command group, and select Heading 1 (H1). H1 represents the top-level heading, which you might want to use for a title or a high-level section title. As you can see, the font size and the color changes automatically because you are selecting from the preset heading styles in Word. Repeat this formatting for your next two headings. If you open the Navigation pane, you will now see that your three H1 headings appear in outline format (Figure 3.19).\n156 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5573814775120342,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:149:3.1:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 149,
+            "text": "Customization of the tabs was covered in the chapter on Essentials of Software Applications for Business. The next sections introduce some of the most important default tabs and their overall function, as well as the most-used commands, as Figure 3.2 shows.\nFigure 3.2 Notice there are several tabs, such as Home and Insert, that are common to all Office programs, as covered in Chapter 2. (Used with permission from Microsoft)\nHome Tab\nThe Home tab is where you will spend most of your time, as it contains the formatting of fonts, alignment, headings, numbering, and lists, as well as the Find commands. It is also the default tab that displays when you open your document. We will go over the Home tab commands in detail in Formatting Document Layout in Microsoft Word.\nInsert Tab",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5563146902229006,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:178:3.5:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 178,
+            "text": "change all of the Normal text and/or Headings font. Go to the bottom of the drop-down Fonts menu and select Customize Fonts. A new dialog box will appear with all the fonts installed in Office, as seen in Figure 3.33. Choose a new font and select Save and the headings will be changed.\nFigure 3.33 You can modify the fonts in components of a theme, such as headings, and they will change from (a) the default font associated with that theme to (b) the customized font you select to apply. (Used with permission from Microsoft) Page Background Command Group",
+            "metadata": {
+              "section": "3.5",
+              "platform": "general"
+            },
+            "score": 0.4978601635777862,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:166:3.3:2 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 166]\nOpen a blank Word document and type in the first three headings from the list above. For each header, select the text, go to the Styles command group, and select Heading 1 (H1). H1 represents the top-level heading, which you might want to use for a title or a high-level section title. As you can see, the font size and the color changes automatically because you are selecting from the preset heading styles in Word. Repeat this formatting for your next two headings. If you open the Navigation pane, you will now see that your three H1 headings appear in outline format (Figure 3.19).\n156 3 • Creating and Working in Documents",
+        "context_ids": [
+          "B:166:3.3:2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Home tab ribbon font alignment Find command group",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:149:3.1:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 149,
+            "text": "Customization of the tabs was covered in the chapter on Essentials of Software Applications for Business. The next sections introduce some of the most important default tabs and their overall function, as well as the most-used commands, as Figure 3.2 shows.\nFigure 3.2 Notice there are several tabs, such as Home and Insert, that are common to all Office programs, as covered in Chapter 2. (Used with permission from Microsoft)\nHome Tab\nThe Home tab is where you will spend most of your time, as it contains the formatting of fonts, alignment, headings, numbering, and lists, as well as the Find commands. It is also the default tab that displays when you open your document. We will go over the Home tab commands in detail in Formatting Document Layout in Microsoft Word.\nInsert Tab",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.4466531739636328,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:163:3.3:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 163,
+            "text": "Figure 3.15 (a) The Font command group lets you select your font and font size, apply special treatment like bold or italic, and set case. Selecting the arrow (a) opens the dialog box (b) where you can apply multiple formats at once. (Used with permission from Microsoft)\nFormatting Paragraphs\nParagraph formatting entails customizing the way the text appears on the page and how it flows from one paragraph to the next. Specifically, this includes line spacing, tab indentations, and alignment justification of text.",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.4299759352235871,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:176:3.5:5",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 176,
+            "text": "Before you can implement styles, you first must label, or code, all the styles in your document. This means selecting parts of the text and using the Styles pane on the Home tab to identify them. For example, all body text must be selected and the Normal style applied; all headings must be labeled as Heading 1, Heading 2, and so on. Once all your text has a style applied, then you will be able to use the themes and styles to full capacity. You can change the default fonts and font styles in the Styles pane, as Figure 3.31 shows. For example, if the default Normal font is Times New Roman, you may want to change it to Calibri. Then, when you select a segment of text and choose the Normal style, it will make the font Calibri, not Times New Roman. In effect, you are telling the program what yo",
+            "metadata": {
+              "section": "3.5",
+              "platform": "general"
+            },
+            "score": 0.3429153059175434,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:166:3.3:2 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 166]\nOpen a blank Word document and type in the first three headings from the list above. For each header, select the text, go to the Styles command group, and select Heading 1 (H1). H1 represents the top-level heading, which you might want to use for a title or a high-level section title. As you can see, the font size and the color changes automatically because you are selecting from the preset heading styles in Word. Repeat this formatting for your next two headings. If you open the Navigation pane, you will now see that your three H1 headings appear in outline format (Figure 3.19).\n156 3 • Creating and Working in Documents",
+        "context_ids": [
+          "B:166:3.3:2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Home tab groups font paragraph styles editing Find",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:149:3.1:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 149,
+            "text": "Customization of the tabs was covered in the chapter on Essentials of Software Applications for Business. The next sections introduce some of the most important default tabs and their overall function, as well as the most-used commands, as Figure 3.2 shows.\nFigure 3.2 Notice there are several tabs, such as Home and Insert, that are common to all Office programs, as covered in Chapter 2. (Used with permission from Microsoft)\nHome Tab\nThe Home tab is where you will spend most of your time, as it contains the formatting of fonts, alignment, headings, numbering, and lists, as well as the Find commands. It is also the default tab that displays when you open your document. We will go over the Home tab commands in detail in Formatting Document Layout in Microsoft Word.\nInsert Tab",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5252176083689217,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:163:3.3:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 163,
+            "text": "Figure 3.15 (a) The Font command group lets you select your font and font size, apply special treatment like bold or italic, and set case. Selecting the arrow (a) opens the dialog box (b) where you can apply multiple formats at once. (Used with permission from Microsoft)\nFormatting Paragraphs\nParagraph formatting entails customizing the way the text appears on the page and how it flows from one paragraph to the next. Specifically, this includes line spacing, tab indentations, and alignment justification of text.",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5174109031313129,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:176:3.5:5",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 176,
+            "text": "Before you can implement styles, you first must label, or code, all the styles in your document. This means selecting parts of the text and using the Styles pane on the Home tab to identify them. For example, all body text must be selected and the Normal style applied; all headings must be labeled as Heading 1, Heading 2, and so on. Once all your text has a style applied, then you will be able to use the themes and styles to full capacity. You can change the default fonts and font styles in the Styles pane, as Figure 3.31 shows. For example, if the default Normal font is Times New Roman, you may want to change it to Calibri. Then, when you select a segment of text and choose the Normal style, it will make the font Calibri, not Times New Roman. In effect, you are telling the program what yo",
+            "metadata": {
+              "section": "3.5",
+              "platform": "general"
+            },
+            "score": 0.45673638582229614,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:166:3.3:2 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 166]\nOpen a blank Word document and type in the first three headings from the list above. For each header, select the text, go to the Styles command group, and select Heading 1 (H1). H1 represents the top-level heading, which you might want to use for a title or a high-level section title. As you can see, the font size and the color changes automatically because you are selecting from the preset heading styles in Word. Repeat this formatting for your next two headings. If you open the Navigation pane, you will now see that your three H1 headings appear in outline format (Figure 3.19).\n156 3 • Creating and Working in Documents",
+        "context_ids": [
+          "B:166:3.3:2"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Word Home tab font formatting alignment headings Find"
+      },
+      {
+        "tool_call": "Home tab ribbon font alignment Find command group"
+      },
+      {
+        "tool_call": "Home tab groups font paragraph styles editing Find"
+      },
+      {
+        "tool_call": "Home tab contains groups Font Paragraph Styles Editing"
+      }
+    ],
+    "llm_calls": 4,
+    "searches": 3,
+    "tokens_in": 2463,
+    "tokens_out": 204,
+    "cost_usd": 0.000889,
+    "seconds": 3.84,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "answerable": true,
+    "question": "What text size and page borders are normally expected in a business report?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "business report font size page margins borders",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:154:3.2:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 154,
+            "text": "document formatting, but these can vary by target audience and by industry. For business reports, such as your market trends report, a 12-point font for body text (Calibri, Times New Roman, and Cambria are some popular fonts), and one-inch margins on all sides (top, bottom, left, right) are typically standard. Most reports also have sections and section headings to help break up and organize the content. The line spacing in the reports can vary, but the most common spacing will be either single-spacing, 1.5-spacing, or double-spacing. Each of these elements has an important role to play in presenting the document to its audience (e.g., business professionals), as well as an impact on readability. Some fonts are easier to read than others, or are more appropriate for a specific genre of doc",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.6021221280097961,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:162:3.3:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 162,
+            "text": "To adjust the font size, go to the Font Size drop-down menu, directly to the right of the Font menu on the Home tab. There are other ways to adjust the font in a selection in a document, but this is the most direct way to make the changes. The default font size is 12-point, but you may want to make your font larger or smaller. Most documents use fonts in sizes 10- to 12-point. For your market trends report, you will probably want an 11- or 12-point font for your main body text, and a larger size for your report title and section headings. You should ensure your font size is easily readable, especially if you plan to provide printed copies of your document.",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.511697440642272,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:154:3.2:5",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 154,
+            "text": "le. Styles do change and are updated, and these services do not always remain current.\nMargins\nAll pages in a document have a margin, a blank area from the edge of each side of the page to the content. Margins make a page more readable, and in printed documents, allow space for bindings, notes, and so on. 144 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5072170789708457,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:162:3.3:3 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 162]\nTo adjust the font size, go to the Font Size drop-down menu, directly to the right of the Font menu on the Home tab. There are other ways to adjust the font in a selection in a document, but this is the most direct way to make the changes. The default font size is 12-point, but you may want to make your font larger or smaller. Most documents use fonts in sizes 10- to 12-point. For your market trends report, you will probably want an 11- or 12-point font for your main body text, and a larger size for your report title and section headings. You should ensure your font size is easily readable, especially if you plan to provide printed copies of your document.",
+        "context_ids": [
+          "B:162:3.3:3"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "page borders business report margins",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:155:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 155,
+            "text": "Figure 3.7 The Margins tab in the Page Setup dialog box lets you (a) choose from predetermined selections, or (b) create your own specifications through the custom margin dialog box. (Used with permission from Microsoft) Orientation",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5598500370979309,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:155:3.2:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 155,
+            "text": "You may encounter projects that need different margins on different pages, or unconventional margins—that is, custom margins.\nTo adjust the margins of a page, go to the Layout tab. Select the Margins icon, and a drop-down menu will appear. The default margin is Normal (1 inch on all sides), but this can be adjusted via the prepopulated options, such as for different layouts with narrower margins. If you want to set your own margins, choose the Custom Margins option at the bottom of the drop-down menu. In the dialog box shown in Figure 3.7, notice how you can adjust the margins to be various measurements.",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5429835319519043,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:154:3.2:5",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 154,
+            "text": "le. Styles do change and are updated, and these services do not always remain current.\nMargins\nAll pages in a document have a margin, a blank area from the edge of each side of the page to the content. Margins make a page more readable, and in printed documents, allow space for bindings, notes, and so on. 144 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5179998565912342,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:162:3.3:3 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 162]\nTo adjust the font size, go to the Font Size drop-down menu, directly to the right of the Font menu on the Home tab. There are other ways to adjust the font in a selection in a document, but this is the most direct way to make the changes. The default font size is 12-point, but you may want to make your font larger or smaller. Most documents use fonts in sizes 10- to 12-point. For your market trends report, you will probably want an 11- or 12-point font for your main body text, and a larger size for your report title and section headings. You should ensure your font size is easily readable, especially if you plan to provide printed copies of your document.",
+        "context_ids": [
+          "B:162:3.3:3"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "business report font size page margins borders"
+      },
+      {
+        "tool_call": "page borders business report margins"
+      },
+      {
+        "text": "The passages say most documents use fonts in sizes 10- to 12-point, with an 11- or 12-point font for main body text and a larger size for the title and section headings [B:162:3.3:3]. However, the passages do not mention page borders, so that part is INSUFFICIENT_EVIDENCE."
+      }
+    ],
+    "llm_calls": 3,
+    "searches": 2,
+    "tokens_in": 1798,
+    "tokens_out": 188,
+    "cost_usd": 0.000692,
+    "seconds": 3.16,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "answerable": true,
+    "question": "How does the paper size used in Europe differ from the one used in the United States?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "paper size Europe United States A4 Letter",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:157:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 157,
+            "text": "Understanding page size is particularly important when working at a global corporation like WorldCorp. Different countries use different standard page sizes, and it is helpful to know how documents might vary across various company locations. For example, the United States uses standard letter size (8.5 inches wide by 11 inches long), whereas Europe and East Asia typically use A4 size (8.25 inches wide by 11.75 inches long). Similar to margin selection, when you select the Size command, there is a drop-down list of default pages sizes, as Figure 3.10 shows. You can select from these options or choose to create a custom page size. Note that the size selections include materials other than standard pages, such as envelopes.\n3.2 • Formatting Document Layout in Microsoft Word 147",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.6207210195494317,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:159:3.2:4",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 159,
+            "text": "g styles, such as using Roman numerals in front matter. 3.2 • Formatting Document Layout in Microsoft Word 149",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.4310349565127525,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:162:3.3:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 162,
+            "text": "To adjust the font size, go to the Font Size drop-down menu, directly to the right of the Font menu on the Home tab. There are other ways to adjust the font in a selection in a document, but this is the most direct way to make the changes. The default font size is 12-point, but you may want to make your font larger or smaller. Most documents use fonts in sizes 10- to 12-point. For your market trends report, you will probably want an 11- or 12-point font for your main body text, and a larger size for your report title and section headings. You should ensure your font size is easily readable, especially if you plan to provide printed copies of your document.",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.3786731732682489,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:159:3.2:4 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 159]\ng styles, such as using Roman numerals in front matter. 3.2 • Formatting Document Layout in Microsoft Word 149",
+        "context_ids": [
+          "B:159:3.2:4"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "A4 Letter paper size default document",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:157:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 157,
+            "text": "Understanding page size is particularly important when working at a global corporation like WorldCorp. Different countries use different standard page sizes, and it is helpful to know how documents might vary across various company locations. For example, the United States uses standard letter size (8.5 inches wide by 11 inches long), whereas Europe and East Asia typically use A4 size (8.25 inches wide by 11.75 inches long). Similar to margin selection, when you select the Size command, there is a drop-down list of default pages sizes, as Figure 3.10 shows. You can select from these options or choose to create a custom page size. Note that the size selections include materials other than standard pages, such as envelopes.\n3.2 • Formatting Document Layout in Microsoft Word 147",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.6685221195220995,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:197:3.7:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 197,
+            "text": "As in Word, the Page Setup commands are for selecting the paper size and orientation (horizontally or vertically). In Docs, it is all done from the File menu; Page Setup is near the bottom of the File menu. In Figure 3.55, you can see the options in the dialog box. The first combo box is for choosing whether to apply page setup to the whole document, or just a section. You can also adjust the paper size; there is a combo box with popular paper sizes like letter and legal. Additionally, you can change the margins to create custom margins. You can also adjust the margins manually on the top of the window, using the mouse to move the margin markers on the ruler (Figure 3.56). Many of the page setup tools in Docs are straightforward and minimalistic. Google programs are intentionally designed ",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.5362452225392792,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:162:3.3:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 162,
+            "text": "To adjust the font size, go to the Font Size drop-down menu, directly to the right of the Font menu on the Home tab. There are other ways to adjust the font in a selection in a document, but this is the most direct way to make the changes. The default font size is 12-point, but you may want to make your font larger or smaller. Most documents use fonts in sizes 10- to 12-point. For your market trends report, you will probably want an 11- or 12-point font for your main body text, and a larger size for your report title and section headings. You should ensure your font size is easily readable, especially if you plan to provide printed copies of your document.",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5162863115923033,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:159:3.2:4 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 159]\ng styles, such as using Roman numerals in front matter. 3.2 • Formatting Document Layout in Microsoft Word 149",
+        "context_ids": [
+          "B:159:3.2:4"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "A4 paper standard Europe versus Letter size United States dimensions",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:157:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 157,
+            "text": "Understanding page size is particularly important when working at a global corporation like WorldCorp. Different countries use different standard page sizes, and it is helpful to know how documents might vary across various company locations. For example, the United States uses standard letter size (8.5 inches wide by 11 inches long), whereas Europe and East Asia typically use A4 size (8.25 inches wide by 11.75 inches long). Similar to margin selection, when you select the Size command, there is a drop-down list of default pages sizes, as Figure 3.10 shows. You can select from these options or choose to create a custom page size. Note that the size selections include materials other than standard pages, such as envelopes.\n3.2 • Formatting Document Layout in Microsoft Word 147",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.6898560523986865,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:154:3.2:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 154,
+            "text": "Different industries will establish certain expectations around the types of documents that are typical of their field, as well as how these documents are formatted and presented. For instance, newspapers will use a certain type of font and use only certain types of formatting options. They will also define the paper size, margins, and how the content is laid out on the page. If you review a handful of different printed newspapers, you will find that each has a very specific style and that no two really look alike, although we recognize that they are newspapers because they share a subset of agreed-upon standards (such as page size). So too, will you find that your industry has a specific style, and in your studies, you will be asked to adopt different writing and formatting standards. The",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.4340945262796252,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:159:3.2:4",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 159,
+            "text": "g styles, such as using Roman numerals in front matter. 3.2 • Formatting Document Layout in Microsoft Word 149",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.41591645289463364,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:159:3.2:4 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 159]\ng styles, such as using Roman numerals in front matter. 3.2 • Formatting Document Layout in Microsoft Word 149",
+        "context_ids": [
+          "B:159:3.2:4"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "paper size Europe United States A4 Letter"
+      },
+      {
+        "tool_call": "A4 Letter paper size default document"
+      },
+      {
+        "tool_call": "A4 paper standard Europe versus Letter size United States dimensions"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 4,
+    "searches": 3,
+    "tokens_in": 2146,
+    "tokens_out": 139,
+    "cost_usd": 0.000732,
+    "seconds": 3.22,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "answerable": true,
+    "question": "In which case should the WorldCorp market trends report be fully justified?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "WorldCorp market trends report fully justified alignment",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:153:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 153,
+            "text": "At WorldCorp, each major division represents a product line. All these divisions have their own functional departments, such as finance, marketing, manufacturing, research and development (R&D), and logistics. To write your report on market trends, you will need to get information on the products from these different departments. For example, the marketing department might provide sales data for a particular product, while the finance department can provide the profit made for each product sold. Practically speaking, this means creating a document that is readable and easy to use for everyone.",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.6216926800195777,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:192:3.7:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 192,
+            "text": "For the WorldCorp market trends report, let's try two columns for the two paragraphs in the Industry and Market Analysis section. This might make sense if we want to add a chart or a table of data below the text. Begin by selecting the body text that you want to format. Then, go to the Format menu using the steps outlined above and place the paragraphs into two columns. It should now look like Figure 3.50. 182 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.49638561893658717,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:165:3.3:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 165,
+            "text": "fication can also lead to awkward gaps within lines of text if the material contains a lot of long words or specialized content. Determining which alignment is appropriate for a document depends on the audience. For example, if you submit your WorldCorp market trends report for publication in an industry journal, it should be fully justified. 3.3 • Formatting Document Content in Microsoft Word 155",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.44817614864253197,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:153:3.2:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 153]\nAt WorldCorp, each major division represents a product line. All these divisions have their own functional departments, such as finance, marketing, manufacturing, research and development (R&D), and logistics. To write your report on market trends, you will need to get information on the products from these different departments. For example, the marketing department might provide sales data for a particular product, while the finance department can provide the profit made for each product sold. Practically speaking, this means creating a document that is readable and easy to use for everyone.",
+        "context_ids": [
+          "B:153:3.2:1"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "WorldCorp market trends report fully justified alignment"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1085,
+    "tokens_out": 87,
+    "cost_usd": 0.000389,
+    "seconds": 1.62,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "answerable": true,
+    "question": "Can I rely on spell-check to catch a correctly spelled word used in the wrong place?",
+    "filter": null,
+    "status": "answered",
+    "answer": "No — spell-check will not always flag a correctly spelled word used in the wrong place, such as typing \"four\" instead of \"for,\" so you still need to proofread [B:170:3.4:0].",
+    "citations": [
+      "B:170:3.4:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "spell check correctly spelled word wrong place",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:170:3.4:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 170,
+            "text": "accept or reject each of its corrections. It should be noted that spell-check will not always check when a word is misused.\nFor example, if you have typed \"four\" instead of \"for\", spell-check will not indicate a misspelled word. The document creator will still need to proofread the document and not rely entirely on the Spelling and Grammar check tool.",
+            "metadata": {
+              "section": "3.4",
+              "platform": "microsoft_word"
+            },
+            "score": 0.6209479652140214,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:169:3.4:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 169,
+            "text": "As a student, you have probably been instructed to spell-check your work before handing it in. Word offers spell-check by simply selecting Spelling and Grammar on the Review tab. This tool will automatically check your spelling and grammar according to the dictionary and other language parameters in Word (which you can adjust from the default settings if desired). A dialog box will appear, and Word will give the option to 3.4 • Collaborative Editing and Reviewing in Microsoft Word 159",
+            "metadata": {
+              "section": "3.4",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5601743984014553,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:200:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 200,
+            "text": "Figure 3.57 The spelling and grammar checking tool in Docs is similar to Word's. Always check that the suggestion is correct before accepting it. (Google Docs is a trademark of Google LLC.)\nAs in Word, Docs offers users the option to add words to a Personal dictionary, so that they are not flagged as errors by the spell-checker tool. To access the Personal dictionary, go to the Tools tab and hover your cursor over the Spelling and grammar command. In the drop-down menu that appears, select Personal dictionary. You can manually add words to it from there.\nCitations and Explore",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.509512422201056,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:170:3.4:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 170]\naccept or reject each of its corrections. It should be noted that spell-check will not always check when a word is misused.\nFor example, if you have typed \"four\" instead of \"for\", spell-check will not indicate a misspelled word. The document creator will still need to proofread the document and not rely entirely on the Spelling and Grammar check tool.",
+        "context_ids": [
+          "B:170:3.4:0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "spell check correctly spelled word wrong place"
+      },
+      {
+        "text": "No — spell-check will not always flag a correctly spelled word used in the wrong place, such as typing \"four\" instead of \"for,\" so you still need to proofread [B:170:3.4:0]."
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1055,
+    "tokens_out": 123,
+    "cost_usd": 0.00042,
+    "seconds": 2.09,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "answerable": true,
+    "question": "In Microsoft Word, how do you add a comment to a piece of text?",
+    "filter": {
+      "platform": "microsoft_word"
+    },
+    "status": "answered",
+    "answer": "To add a comment, select the segment of text in question, then select New Comment from the Review tab, and type within the comment [B:170:3.4:3].",
+    "citations": [
+      "B:170:3.4:3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Word add comment to text",
+        "filter": {
+          "platform": "microsoft_word"
+        },
+        "results": [
+          {
+            "id": "B:170:3.4:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 170,
+            "text": "Comments are used for calling attention to any content in your document that you want to solicit input on or note for yourself. You can also use comments to flag spelling or usage queries, provide instructions to others reviewing your document, remind yourself to address something later like adding a graphic or fact-checking a statement, or ask questions about the content. To add a comment, select the segment of text in question, and then select New Comment from the Review tab, as shown in Figure 3.24. You can then type within the comment and click the arrow when you're done to make sure the comment sticks.\n160 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.4",
+              "platform": "microsoft_word"
+            },
+            "score": 0.6288711649852308,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:150:3.1:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 150,
+            "text": "Figure 3.3 The Review tab in Word is helpful when multiple people are working on a document. It allows them to add comments and track revisions. The second comment is the lower one and is the reply to the one above it. (Used with permission from Microsoft) 140 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5206385540581621,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:149:3.1:4",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 149,
+            "text": "If you are working with a team on your documents, you'll likely use the Review tab. This tab has a commenting function that allows users to add comments to a file, and to respond to each other's comments, as also discussed in the Essentials of Software Applications for Business chapter. As Figure 3.3 shows, the Review tab contains the Track Changes feature, which is helpful when many people are taking turns reviewing and contributing to a document. When Track Changes is turned on, edits to the document appear underlined and in colored text. Each user's edits will be colored differently to easily distinguish input from multiple people. This is particularly helpful when documents go through several revisions and are reviewed by many people. The market trends report for WorldCorp is a team ef",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5096357149537128,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:170:3.4:3 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 170]\nComments are used for calling attention to any content in your document that you want to solicit input on or note for yourself. You can also use comments to flag spelling or usage queries, provide instructions to others reviewing your document, remind yourself to address something later like adding a graphic or fact-checking a statement, or ask questions about the content. To add a comment, select the segment of text in question, and then select New Comment from the Review tab, as shown in Figure 3.24. You can then type within the comment and click the arrow when you're done to make sure the comment sticks.\n160 3 • Creating and Working in Documents",
+        "context_ids": [
+          "B:170:3.4:3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Word add comment to text"
+      },
+      {
+        "text": "To add a comment, select the segment of text in question, then select New Comment from the Review tab, and type within the comment [B:170:3.4:3]."
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1105,
+    "tokens_out": 78,
+    "cost_usd": 0.000384,
+    "seconds": 1.74,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "answerable": true,
+    "question": "How can I switch between seeing everyone's edits and a clean copy of the document?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Use the Tracking command group to toggle between **No Markup** and **All Markup**, which shows the tracked versus clean versions of the document [B:172:3.4:2].",
+    "citations": [
+      "B:172:3.4:2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "switch between showing all edits and clean copy no markup",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:205:3.8:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 205,
+            "text": "As Figure 3.63 shows, the drop-down box will display the options of Preview Accept All or Preview Reject All. This is like the Track Changes feature combo box that says All Markup and No Markup. If you Preview Accept All, you can see the document as if all the suggested edits were accepted. This will also make the document easier to read. If you are satisfied with the changes, then you can just select Accept All. In contrast, the Preview Reject All shows the original document before this version, without the current version's changes, and it doesn't show brackets or strikethroughs as well. This way, you can control whether the document is progressing properly or communicate with some collaborators if there is an issue with their additions or edits. Although this function is available, it i",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.5008765459060669,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:172:3.4:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 172,
+            "text": "The Tracking command group offers options for which changes or markups are shown. You can toggle between No Markup and All Markup to see tracked and clean versions of a document (Figure 3.26). The Show Markup selections allow you to turn off Formatting revisions so you can focus more easily on content changes. There is also an option to turn on/off feedback from specific reviewers. These possibilities are helpful when you have a document with a lot of markup and want to focus on one area of input in particular. Figure 3.26 (a) Users can adjust how much markup they see, as well as (b) what types or markups are shown and which reviewers' feedback is displayed. (Used with permission from Microsoft)",
+            "metadata": {
+              "section": "3.4",
+              "platform": "microsoft_word"
+            },
+            "score": 0.4634479880332947,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:181:3.6:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 181,
+            "text": "Figure 3.36 The Edit menu has the standard copy, cut, and paste commands. (Google Docs is a trademark of Google LLC.) View Menu",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.4118615984916687,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:172:3.4:2 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 172]\nThe Tracking command group offers options for which changes or markups are shown. You can toggle between No Markup and All Markup to see tracked and clean versions of a document (Figure 3.26). The Show Markup selections allow you to turn off Formatting revisions so you can focus more easily on content changes. There is also an option to turn on/off feedback from specific reviewers. These possibilities are helpful when you have a document with a lot of markup and want to focus on one area of input in particular. Figure 3.26 (a) Users can adjust how much markup they see, as well as (b) what types or markups are shown and which reviewers' feedback is displayed. (Used with permission from Microsoft)",
+        "context_ids": [
+          "B:172:3.4:2"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "switch between showing all edits and clean copy no markup"
+      },
+      {
+        "text": "Use the Tracking command group to toggle between **No Markup** and **All Markup**, which shows the tracked versus clean versions of the document [B:172:3.4:2]."
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1131,
+    "tokens_out": 85,
+    "cost_usd": 0.000399,
+    "seconds": 1.66,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does Paste without formatting do?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "paste without formatting",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:181:3.6:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 181,
+            "text": "the essentials of the Google programs.\nEdit Menu\nThis menu is similar to the Edit menu in Word. Looking at Figure 3.36, you can see that this menu has commands such as Select All, Undo, Redo, and Find and Replace. As in Word, the keyboard shortcut Ctrl+Z will undo the last action you took, while Ctrl+Y is the opposite: It redoes what you have undone with Ctrl+Z. MAC TIP\nOn a Mac, these commands are Command+Z and Command+Y, respectively. Any time a Ctrl+ function is used on a Windows computer, the corresponding function key on a Mac will be the Command key. Paste without formatting is a useful tool for copying and pasting text only, without any of the source formatting (such as font, font size, or color). This is particularly helpful when copying and pasting from an email or website.",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.6087388629472944,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:153:3.1:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 153,
+            "text": "There will be times when you may not have access to Word or another word processing program. Many computers, and even some portable devices, will come with a preinstalled basic text processing as part of their operating system. Notepad is one example. While you will not be able to format the text (not even bold, italic, or underline), you can capture basic text information and save it as a basic text file (.txt) to your computer. This can be useful for jotting down quick notes—hence the name Notepad. Then, later, when you have access to Word, you can copy and paste the text from Notepad into Word, where you can format it and incorporate it into other documents if needed.",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.4496196508407593,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:181:3.6:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 181,
+            "text": "Figure 3.36 The Edit menu has the standard copy, cut, and paste commands. (Google Docs is a trademark of Google LLC.) View Menu",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.3948840796947479,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:153:3.1:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 153]\nThere will be times when you may not have access to Word or another word processing program. Many computers, and even some portable devices, will come with a preinstalled basic text processing as part of their operating system. Notepad is one example. While you will not be able to format the text (not even bold, italic, or underline), you can capture basic text information and save it as a basic text file (.txt) to your computer. This can be useful for jotting down quick notes—hence the name Notepad. Then, later, when you have access to Word, you can copy and paste the text from Notepad into Word, where you can format it and incorporate it into other documents if needed.",
+        "context_ids": [
+          "B:153:3.1:1"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "paste without formatting keep text only",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:181:3.6:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 181,
+            "text": "the essentials of the Google programs.\nEdit Menu\nThis menu is similar to the Edit menu in Word. Looking at Figure 3.36, you can see that this menu has commands such as Select All, Undo, Redo, and Find and Replace. As in Word, the keyboard shortcut Ctrl+Z will undo the last action you took, while Ctrl+Y is the opposite: It redoes what you have undone with Ctrl+Z. MAC TIP\nOn a Mac, these commands are Command+Z and Command+Y, respectively. Any time a Ctrl+ function is used on a Windows computer, the corresponding function key on a Mac will be the Command key. Paste without formatting is a useful tool for copying and pasting text only, without any of the source formatting (such as font, font size, or color). This is particularly helpful when copying and pasting from an email or website.",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.5649243256494815,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:153:3.1:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 153,
+            "text": "There will be times when you may not have access to Word or another word processing program. Many computers, and even some portable devices, will come with a preinstalled basic text processing as part of their operating system. Notepad is one example. While you will not be able to format the text (not even bold, italic, or underline), you can capture basic text information and save it as a basic text file (.txt) to your computer. This can be useful for jotting down quick notes—hence the name Notepad. Then, later, when you have access to Word, you can copy and paste the text from Notepad into Word, where you can format it and incorporate it into other documents if needed.",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.3867570161819458,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:168:3.3:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 168,
+            "text": "Figure 3.21 The default when inserting a picture is to have the picture inserted where the cursor is located \"In line with text.\" (Used with permission from Microsoft)\nNotice that you can change the wrapping style using the tool that appears in the upper-right corner of the image when you paste it in the document (Figure 3.22).\n158 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.2911031072674335,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:153:3.1:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 153]\nThere will be times when you may not have access to Word or another word processing program. Many computers, and even some portable devices, will come with a preinstalled basic text processing as part of their operating system. Notepad is one example. While you will not be able to format the text (not even bold, italic, or underline), you can capture basic text information and save it as a basic text file (.txt) to your computer. This can be useful for jotting down quick notes—hence the name Notepad. Then, later, when you have access to Word, you can copy and paste the text from Notepad into Word, where you can format it and incorporate it into other documents if needed.",
+        "context_ids": [
+          "B:153:3.1:1"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "paste without formatting"
+      },
+      {
+        "tool_call": "paste without formatting keep text only"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 3,
+    "searches": 2,
+    "tokens_in": 1764,
+    "tokens_out": 87,
+    "cost_usd": 0.000572,
+    "seconds": 2.48,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "answerable": true,
+    "question": "In Google Docs, where do you find the Page Setup commands?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Google Docs Page Setup menu",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:197:3.7:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 197,
+            "text": "As in Word, the Page Setup commands are for selecting the paper size and orientation (horizontally or vertically). In Docs, it is all done from the File menu; Page Setup is near the bottom of the File menu. In Figure 3.55, you can see the options in the dialog box. The first combo box is for choosing whether to apply page setup to the whole document, or just a section. You can also adjust the paper size; there is a combo box with popular paper sizes like letter and legal. Additionally, you can change the margins to create custom margins. You can also adjust the margins manually on the top of the window, using the mouse to move the margin markers on the ruler (Figure 3.56). Many of the page setup tools in Docs are straightforward and minimalistic. Google programs are intentionally designed ",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.6109485858113427,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:186:3.7:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 186,
+            "text": "3.7 Formatting Layout and Content in Google Docs\nLearning Objectives\nBy the end of this section, you will be able to:\n• Modify document formatting\n• Create different types of sections\n• Modify the page setup",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.5572218826744736,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:197:3.7:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 197,
+            "text": "to be user-friendly, and this is just one example of how easy it can be to make changes to your document.\n3.7 • Formatting Layout and Content in Google Docs 187",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.5511814951896667,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:186:3.7:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 186]\n3.7 Formatting Layout and Content in Google Docs\nLearning Objectives\nBy the end of this section, you will be able to:\n• Modify document formatting\n• Create different types of sections\n• Modify the page setup\n\n[B:197:3.7:2 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 197]\nto be user-friendly, and this is just one example of how easy it can be to make changes to your document.\n3.7 • Formatting Layout and Content in Google Docs 187",
+        "context_ids": [
+          "B:186:3.7:0",
+          "B:197:3.7:2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Google Docs File menu Page setup margins orientation",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:197:3.7:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 197,
+            "text": "As in Word, the Page Setup commands are for selecting the paper size and orientation (horizontally or vertically). In Docs, it is all done from the File menu; Page Setup is near the bottom of the File menu. In Figure 3.55, you can see the options in the dialog box. The first combo box is for choosing whether to apply page setup to the whole document, or just a section. You can also adjust the paper size; there is a combo box with popular paper sizes like letter and legal. Additionally, you can change the margins to create custom margins. You can also adjust the margins manually on the top of the window, using the mouse to move the margin markers on the ruler (Figure 3.56). Many of the page setup tools in Docs are straightforward and minimalistic. Google programs are intentionally designed ",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.6384260273917909,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:198:3.7:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 198,
+            "text": "Figure 3.55 Margins are set in the Page setup dialog box. (a) These are the margins if you choose an Executive size document. (b) These are the margin sizes for the common Letter type document. (Google Docs is a trademark of Google LLC.) Figure 3.56 You can also set margins by using the arrows in the ruler. (Google Docs is a trademark of Google LLC.) LINK TO LEARNING\nDocs also has numerous keyboard shortcuts that can help you perform tasks faster. These shortcuts are for font formatting, line spacing, indent formatting, making lists, applying styles, moving and resizing objects, and adding citations or comments. Docs can also be manipulated through the Alt commands, to move around in the window menus. These Google Docs keyboard shortcuts (https://openstax.org/r/",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.5494882032122675,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:197:3.7:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 197,
+            "text": "to be user-friendly, and this is just one example of how easy it can be to make changes to your document.\n3.7 • Formatting Layout and Content in Google Docs 187",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.5129832625389099,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:186:3.7:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 186]\n3.7 Formatting Layout and Content in Google Docs\nLearning Objectives\nBy the end of this section, you will be able to:\n• Modify document formatting\n• Create different types of sections\n• Modify the page setup\n\n[B:197:3.7:2 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 197]\nto be user-friendly, and this is just one example of how easy it can be to make changes to your document.\n3.7 • Formatting Layout and Content in Google Docs 187",
+        "context_ids": [
+          "B:186:3.7:0",
+          "B:197:3.7:2"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Google Docs modify page setup File menu",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:197:3.7:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 197,
+            "text": "to be user-friendly, and this is just one example of how easy it can be to make changes to your document.\n3.7 • Formatting Layout and Content in Google Docs 187",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.5662642379841673,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:197:3.7:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 197,
+            "text": "As in Word, the Page Setup commands are for selecting the paper size and orientation (horizontally or vertically). In Docs, it is all done from the File menu; Page Setup is near the bottom of the File menu. In Figure 3.55, you can see the options in the dialog box. The first combo box is for choosing whether to apply page setup to the whole document, or just a section. You can also adjust the paper size; there is a combo box with popular paper sizes like letter and legal. Additionally, you can change the margins to create custom margins. You can also adjust the margins manually on the top of the window, using the mouse to move the margin markers on the ruler (Figure 3.56). Many of the page setup tools in Docs are straightforward and minimalistic. Google programs are intentionally designed ",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.5393865657583993,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:186:3.7:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 186,
+            "text": "3.7 Formatting Layout and Content in Google Docs\nLearning Objectives\nBy the end of this section, you will be able to:\n• Modify document formatting\n• Create different types of sections\n• Modify the page setup",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.5315845850256837,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:186:3.7:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 186]\n3.7 Formatting Layout and Content in Google Docs\nLearning Objectives\nBy the end of this section, you will be able to:\n• Modify document formatting\n• Create different types of sections\n• Modify the page setup\n\n[B:197:3.7:2 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 197]\nto be user-friendly, and this is just one example of how easy it can be to make changes to your document.\n3.7 • Formatting Layout and Content in Google Docs 187",
+        "context_ids": [
+          "B:186:3.7:0",
+          "B:197:3.7:2"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Google Docs Page Setup menu"
+      },
+      {
+        "tool_call": "Google Docs File menu Page setup margins orientation"
+      },
+      {
+        "tool_call": "Google Docs modify page setup File menu"
+      },
+      {
+        "tool_call": "Google Docs page setup orientation margins paper size command location"
+      }
+    ],
+    "llm_calls": 4,
+    "searches": 3,
+    "tokens_in": 2385,
+    "tokens_out": 170,
+    "cost_usd": 0.000831,
+    "seconds": 3.31,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "answerable": true,
+    "question": "To set text in two columns, do I have to select the whole section first?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "set text in two columns select section",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:192:3.7:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 192,
+            "text": "Figure 3.48 Only the selected text is indented over to the right. The rest of the text remains left-aligned. (Google Docs is a trademark of Google LLC.)\nDocs also makes it easy to create and format columns with a single click. To quickly change the text to be set in two or three columns, as in a newsletter or email advertisement, just put your cursor anywhere on the text, go to the Format menu, hover over Columns, then choose the number of columns you desire (Figure 3.49). You can do this in the Format menu as well. You do not have to do anything like selecting the whole section or document because the column formatting will apply to the section or paragraph you are in. If you want to apply it to multiple paragraphs, you will need to manually select those paragraphs.",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.48793692850878645,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:159:3.2:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 159,
+            "text": "Figure 3.11 (a) More Columns opens a window where you can (b) customize their width and spacing. Columns are common in certain types of documents, such as newsletters and brochures. (Used with permission from Microsoft) Working with Section Breaks\nSections in Word are especially useful for long documents. A section allows the user to partition part of the document, such as front matter, body text, and back matter, and apply different styles and formatting to each section, while still maintaining all the text in one document. Sections are also important when creating a table of contents and assigning page numbers in a large report. These concepts will be covered in more detail in the chapter on Document Preparation.",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.3355506658554077,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:158:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 158,
+            "text": "You may be familiar with the column format in print media such as newspapers and magazines, where the text on a page is separated into multiple, vertical columns. Sometimes columns are desired in specific types of Word documents, such as newsletters or brochures. They can also be useful if you have a long list of short terms and want to optimize page space by utilizing columns instead of having a large expanse of white space. Word has many options for creating columns. To do this, you can select a section of text, go to the Columns drop-down menu, and select from common column layouts. Menu options include columns of equal size, or options where there is one narrower column on the side of a wider column. If you want to customize a column to be of a specific width, or you want more than thr",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.33074829991172017,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:159:3.2:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 159]\nFigure 3.11 (a) More Columns opens a window where you can (b) customize their width and spacing. Columns are common in certain types of documents, such as newsletters and brochures. (Used with permission from Microsoft) Working with Section Breaks\nSections in Word are especially useful for long documents. A section allows the user to partition part of the document, such as front matter, body text, and back matter, and apply different styles and formatting to each section, while still maintaining all the text in one document. Sections are also important when creating a table of contents and assigning page numbers in a large report. These concepts will be covered in more detail in the chapter on Document Preparation.",
+        "context_ids": [
+          "B:159:3.2:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "apply two columns to whole document without selecting text",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:192:3.7:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 192,
+            "text": "Figure 3.48 Only the selected text is indented over to the right. The rest of the text remains left-aligned. (Google Docs is a trademark of Google LLC.)\nDocs also makes it easy to create and format columns with a single click. To quickly change the text to be set in two or three columns, as in a newsletter or email advertisement, just put your cursor anywhere on the text, go to the Format menu, hover over Columns, then choose the number of columns you desire (Figure 3.49). You can do this in the Format menu as well. You do not have to do anything like selecting the whole section or document because the column formatting will apply to the section or paragraph you are in. If you want to apply it to multiple paragraphs, you will need to manually select those paragraphs.",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.4391693305721682,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:158:3.2:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 158,
+            "text": "ee columns in one page, choose More Columns. In Figure 3.11, you can see the options. The dialog box shows a preview of how the document will look. A line between the columns is possible, as seen in the dialog box.\n148 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.41337544758612843,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:158:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 158,
+            "text": "You may be familiar with the column format in print media such as newspapers and magazines, where the text on a page is separated into multiple, vertical columns. Sometimes columns are desired in specific types of Word documents, such as newsletters or brochures. They can also be useful if you have a long list of short terms and want to optimize page space by utilizing columns instead of having a large expanse of white space. Word has many options for creating columns. To do this, you can select a section of text, go to the Columns drop-down menu, and select from common column layouts. Menu options include columns of equal size, or options where there is one narrower column on the side of a wider column. If you want to customize a column to be of a specific width, or you want more than thr",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.38730195836413217,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:159:3.2:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 159]\nFigure 3.11 (a) More Columns opens a window where you can (b) customize their width and spacing. Columns are common in certain types of documents, such as newsletters and brochures. (Used with permission from Microsoft) Working with Section Breaks\nSections in Word are especially useful for long documents. A section allows the user to partition part of the document, such as front matter, body text, and back matter, and apply different styles and formatting to each section, while still maintaining all the text in one document. Sections are also important when creating a table of contents and assigning page numbers in a large report. These concepts will be covered in more detail in the chapter on Document Preparation.",
+        "context_ids": [
+          "B:159:3.2:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "columns apply to entire document without selecting text Word",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:158:3.2:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 158,
+            "text": "You may be familiar with the column format in print media such as newspapers and magazines, where the text on a page is separated into multiple, vertical columns. Sometimes columns are desired in specific types of Word documents, such as newsletters or brochures. They can also be useful if you have a long list of short terms and want to optimize page space by utilizing columns instead of having a large expanse of white space. Word has many options for creating columns. To do this, you can select a section of text, go to the Columns drop-down menu, and select from common column layouts. Menu options include columns of equal size, or options where there is one narrower column on the side of a wider column. If you want to customize a column to be of a specific width, or you want more than thr",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.5030744968012284,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:192:3.7:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 192,
+            "text": "Figure 3.48 Only the selected text is indented over to the right. The rest of the text remains left-aligned. (Google Docs is a trademark of Google LLC.)\nDocs also makes it easy to create and format columns with a single click. To quickly change the text to be set in two or three columns, as in a newsletter or email advertisement, just put your cursor anywhere on the text, go to the Format menu, hover over Columns, then choose the number of columns you desire (Figure 3.49). You can do this in the Format menu as well. You do not have to do anything like selecting the whole section or document because the column formatting will apply to the section or paragraph you are in. If you want to apply it to multiple paragraphs, you will need to manually select those paragraphs.",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.45067505391463825,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:158:3.2:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 158,
+            "text": "ee columns in one page, choose More Columns. In Figure 3.11, you can see the options. The dialog box shows a preview of how the document will look. A line between the columns is possible, as seen in the dialog box.\n148 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.2",
+              "platform": "microsoft_word"
+            },
+            "score": 0.4195066786400492,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:159:3.2:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 159]\nFigure 3.11 (a) More Columns opens a window where you can (b) customize their width and spacing. Columns are common in certain types of documents, such as newsletters and brochures. (Used with permission from Microsoft) Working with Section Breaks\nSections in Word are especially useful for long documents. A section allows the user to partition part of the document, such as front matter, body text, and back matter, and apply different styles and formatting to each section, while still maintaining all the text in one document. Sections are also important when creating a table of contents and assigning page numbers in a large report. These concepts will be covered in more detail in the chapter on Document Preparation.",
+        "context_ids": [
+          "B:159:3.2:0"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "set text in two columns select section"
+      },
+      {
+        "tool_call": "apply two columns to whole document without selecting text"
+      },
+      {
+        "tool_call": "columns apply to entire document without selecting text Word"
+      },
+      {
+        "tool_call": "columns command applies to whole document or selected text"
+      }
+    ],
+    "llm_calls": 4,
+    "searches": 3,
+    "tokens_in": 2489,
+    "tokens_out": 275,
+    "cost_usd": 0.000975,
+    "seconds": 3.76,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "answerable": true,
+    "question": "Does every document theme use the same default body font?",
+    "filter": null,
+    "status": "answered",
+    "answer": "No — different themes have different Normal (body) font settings, so selecting a theme can change the Normal font (e.g., from Calibri to Arial with the \"Madison\" theme) [B:177:3.5:1].",
+    "citations": [
+      "B:177:3.5:1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "document theme default body font",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:177:3.5:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 177,
+            "text": "This is the manual way of applying styles. But the real power in using styles is to simply use them as identifiers for your text so that themes can \"read\" and style the text properly. For example, it wouldn't matter if you chose Calibri as your Normal font style; if you select the \"Madison\" theme, for instance, the new Normal font will automatically change to Arial, because that is what comes with the theme. Different themes have different Normal font settings. To see what font a theme uses, you will need to select the theme and see the fonts it uses. Now, let's explore how to apply a theme and why it works so well with styles.\nApplying Themes",
+            "metadata": {
+              "section": "3.5",
+              "platform": "general"
+            },
+            "score": 0.5314086675643921,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:176:3.5:5",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 176,
+            "text": "Before you can implement styles, you first must label, or code, all the styles in your document. This means selecting parts of the text and using the Styles pane on the Home tab to identify them. For example, all body text must be selected and the Normal style applied; all headings must be labeled as Heading 1, Heading 2, and so on. Once all your text has a style applied, then you will be able to use the themes and styles to full capacity. You can change the default fonts and font styles in the Styles pane, as Figure 3.31 shows. For example, if the default Normal font is Times New Roman, you may want to change it to Calibri. Then, when you select a segment of text and choose the Normal style, it will make the font Calibri, not Times New Roman. In effect, you are telling the program what yo",
+            "metadata": {
+              "section": "3.5",
+              "platform": "general"
+            },
+            "score": 0.5232232213020325,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:178:3.5:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 178,
+            "text": "change all of the Normal text and/or Headings font. Go to the bottom of the drop-down Fonts menu and select Customize Fonts. A new dialog box will appear with all the fonts installed in Office, as seen in Figure 3.33. Choose a new font and select Save and the headings will be changed.\nFigure 3.33 You can modify the fonts in components of a theme, such as headings, and they will change from (a) the default font associated with that theme to (b) the customized font you select to apply. (Used with permission from Microsoft) Page Background Command Group",
+            "metadata": {
+              "section": "3.5",
+              "platform": "general"
+            },
+            "score": 0.5059465169906616,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:177:3.5:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 177]\nThis is the manual way of applying styles. But the real power in using styles is to simply use them as identifiers for your text so that themes can \"read\" and style the text properly. For example, it wouldn't matter if you chose Calibri as your Normal font style; if you select the \"Madison\" theme, for instance, the new Normal font will automatically change to Arial, because that is what comes with the theme. Different themes have different Normal font settings. To see what font a theme uses, you will need to select the theme and see the fonts it uses. Now, let's explore how to apply a theme and why it works so well with styles.\nApplying Themes",
+        "context_ids": [
+          "B:177:3.5:1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "document theme default body font"
+      },
+      {
+        "text": "No — different themes have different Normal (body) font settings, so selecting a theme can change the Normal font (e.g., from Calibri to Arial with the \"Madison\" theme) [B:177:3.5:1]."
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1106,
+    "tokens_out": 92,
+    "cost_usd": 0.0004,
+    "seconds": 1.95,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "answerable": true,
+    "question": "Does Google Docs save my changes on its own, and is there any condition?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Google Docs automatically saves changes",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:207:3.9:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 207,
+            "text": "With versioning, you no longer have to worry about losing your files if your laptop battery dies. You do not have to be concerned if your program suddenly shuts down before you had a chance to save that last paragraph you typed. Docs has a feature that, as long as you are connected to the internet, autosaves every change you make to the file. There is no Save or Save As command because Docs is constantly saving in Google Drive, which creates version histories. This version history can be accessed by going to the File menu, then hovering over Version history, then selecting See version history. A sidebar will spring up to the right, as shown in Figure 3.64, listing many versions of the file, each with a time stamp and the name of the person or people using it at the time it was saved. With ",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.6456127166748047,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:214:3.9:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 214,
+            "text": "Figure 3.72 (a) The versions are both time and date stamped. (b) You can restore to a particular version, make a copy of the version, or rename the version. (Google Docs is a trademark of Google LLC.)\nTo quickly see new changes in a file, Docs has a See New Changes alert. It appears where the date normally appears, next to the Help menu. If you select that, you'll be able to see the recent changes from other editors—specifically, you will see all the changes that you haven't seen since the last time you opened the file. This functionality is useful for quickly and easily seeing changes from collaborators without having to access the version history.\nVersioning in Microsoft Word",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.6206098794937134,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:213:3.9:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 213,
+            "text": "Figure 3.70 (a) Google keeps track of the number of edits in the document, as you can see on the top right. (b) You can use the arrows to move through the edits to determine if you want to keep the changes. (Google Docs is a trademark of Google LLC.) If, after reviewing each change, you decide that one of the older versions is better than the current one, you can select the large Restore this version button at the top of the window (Figure 3.71).\nFigure 3.71 Google gives you the option also to restore the document to a previous version. (Google Docs is a trademark of Google LLC.)",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.6032329977522196,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:214:3.9:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 214]\nFigure 3.72 (a) The versions are both time and date stamped. (b) You can restore to a particular version, make a copy of the version, or rename the version. (Google Docs is a trademark of Google LLC.)\nTo quickly see new changes in a file, Docs has a See New Changes alert. It appears where the date normally appears, next to the Help menu. If you select that, you'll be able to see the recent changes from other editors—specifically, you will see all the changes that you haven't seen since the last time you opened the file. This functionality is useful for quickly and easily seeing changes from collaborators without having to access the version history.\nVersioning in Microsoft Word",
+        "context_ids": [
+          "B:214:3.9:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Google Docs automatically saves changes offline connection",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:207:3.9:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 207,
+            "text": "With versioning, you no longer have to worry about losing your files if your laptop battery dies. You do not have to be concerned if your program suddenly shuts down before you had a chance to save that last paragraph you typed. Docs has a feature that, as long as you are connected to the internet, autosaves every change you make to the file. There is no Save or Save As command because Docs is constantly saving in Google Drive, which creates version histories. This version history can be accessed by going to the File menu, then hovering over Version history, then selecting See version history. A sidebar will spring up to the right, as shown in Figure 3.64, listing many versions of the file, each with a time stamp and the name of the person or people using it at the time it was saved. With ",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.5334362983703613,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:207:3.9:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 207,
+            "text": "3.9 Versions and Version History\nLearning Objectives\nBy the end of this section, you will be able to:\n• Access and use versioning features in Google Docs\n• Access and use versioning features in Microsoft Word\nThis section delves into a feature of Microsoft Word and Google Docs called versioning. Versioning refers to the technology where programs store multiple iterations of files until they are approved and saved. Essentially, several edited versions of the file are maintained on an online server, as well as the original document. Versioning technology can give you some peace of mind that your original document is saved somewhere, and that any changes will need to be accepted (approved) before the final document is saved.",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.45039790868759155,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:214:3.9:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 214,
+            "text": "Figure 3.72 (a) The versions are both time and date stamped. (b) You can restore to a particular version, make a copy of the version, or rename the version. (Google Docs is a trademark of Google LLC.)\nTo quickly see new changes in a file, Docs has a See New Changes alert. It appears where the date normally appears, next to the Help menu. If you select that, you'll be able to see the recent changes from other editors—specifically, you will see all the changes that you haven't seen since the last time you opened the file. This functionality is useful for quickly and easily seeing changes from collaborators without having to access the version history.\nVersioning in Microsoft Word",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.448705792427063,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:214:3.9:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 214]\nFigure 3.72 (a) The versions are both time and date stamped. (b) You can restore to a particular version, make a copy of the version, or rename the version. (Google Docs is a trademark of Google LLC.)\nTo quickly see new changes in a file, Docs has a See New Changes alert. It appears where the date normally appears, next to the Help menu. If you select that, you'll be able to see the recent changes from other editors—specifically, you will see all the changes that you haven't seen since the last time you opened the file. This functionality is useful for quickly and easily seeing changes from collaborators without having to access the version history.\nVersioning in Microsoft Word",
+        "context_ids": [
+          "B:214:3.9:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Google Docs saves automatically offline edits",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:207:3.9:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 207,
+            "text": "With versioning, you no longer have to worry about losing your files if your laptop battery dies. You do not have to be concerned if your program suddenly shuts down before you had a chance to save that last paragraph you typed. Docs has a feature that, as long as you are connected to the internet, autosaves every change you make to the file. There is no Save or Save As command because Docs is constantly saving in Google Drive, which creates version histories. This version history can be accessed by going to the File menu, then hovering over Version history, then selecting See version history. A sidebar will spring up to the right, as shown in Figure 3.64, listing many versions of the file, each with a time stamp and the name of the person or people using it at the time it was saved. With ",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.6037681575097893,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:207:3.9:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 207,
+            "text": "3.9 Versions and Version History\nLearning Objectives\nBy the end of this section, you will be able to:\n• Access and use versioning features in Google Docs\n• Access and use versioning features in Microsoft Word\nThis section delves into a feature of Microsoft Word and Google Docs called versioning. Versioning refers to the technology where programs store multiple iterations of files until they are approved and saved. Essentially, several edited versions of the file are maintained on an online server, as well as the original document. Versioning technology can give you some peace of mind that your original document is saved somewhere, and that any changes will need to be accepted (approved) before the final document is saved.",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.5138186795927705,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:213:3.9:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 213,
+            "text": "Figure 3.70 (a) Google keeps track of the number of edits in the document, as you can see on the top right. (b) You can use the arrows to move through the edits to determine if you want to keep the changes. (Google Docs is a trademark of Google LLC.) If, after reviewing each change, you decide that one of the older versions is better than the current one, you can select the large Restore this version button at the top of the window (Figure 3.71).\nFigure 3.71 Google gives you the option also to restore the document to a previous version. (Google Docs is a trademark of Google LLC.)",
+            "metadata": {
+              "section": "3.9",
+              "platform": "general"
+            },
+            "score": 0.50791086185776,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:214:3.9:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 214]\nFigure 3.72 (a) The versions are both time and date stamped. (b) You can restore to a particular version, make a copy of the version, or rename the version. (Google Docs is a trademark of Google LLC.)\nTo quickly see new changes in a file, Docs has a See New Changes alert. It appears where the date normally appears, next to the Help menu. If you select that, you'll be able to see the recent changes from other editors—specifically, you will see all the changes that you haven't seen since the last time you opened the file. This functionality is useful for quickly and easily seeing changes from collaborators without having to access the version history.\nVersioning in Microsoft Word",
+        "context_ids": [
+          "B:214:3.9:0"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Google Docs automatically saves changes"
+      },
+      {
+        "tool_call": "Google Docs automatically saves changes offline connection"
+      },
+      {
+        "tool_call": "Google Docs saves automatically offline edits"
+      },
+      {
+        "tool_call": "Google Docs automatically saves while you type"
+      }
+    ],
+    "llm_calls": 4,
+    "searches": 3,
+    "tokens_in": 2487,
+    "tokens_out": 231,
+    "cost_usd": 0.000926,
+    "seconds": 3.74,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q23",
+    "split": "dev",
+    "answerable": false,
+    "question": "In Google Docs, how do you type by voice?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Google Docs voice typing",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:200:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 200,
+            "text": "Figure 3.57 The spelling and grammar checking tool in Docs is similar to Word's. Always check that the suggestion is correct before accepting it. (Google Docs is a trademark of Google LLC.)\nAs in Word, Docs offers users the option to add words to a Personal dictionary, so that they are not flagged as errors by the spell-checker tool. To access the Personal dictionary, go to the Tools tab and hover your cursor over the Spelling and grammar command. In the drop-down menu that appears, select Personal dictionary. You can manually add words to it from there.\nCitations and Explore",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.44729054602497587,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:199:3.8:4",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 199,
+            "text": "Before sending or sharing any document in the workplace, you want to make sure it is as error-free as possible. You can do that by accessing the features of the Spelling and grammar command in the Tools menu. The dialog box shown in Figure 3.57 has the same functionality and overall feel as Word, and it operates in the same way, too, resolving each incident one-by-one.\n3.8 • Collaborative Editing and Reviewing in Google Docs 189",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.3896051049232483,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:184:3.6:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 184,
+            "text": " the manual of style of your choice—APA or MLA, for instance. The tools for checking spelling and grammar and word count function in a similar way to Word. You will learn more about the Explore command in Collaborative Editing and Reviewing in Google Docs. Docs also contains a tool for tracking changes, similar to Word's Track Changes. This tool, available through a drop-down menu in the top right of the document window, allows the user to choose between Editing (normal editing of your own document), Suggesting (tracking your changes), and Viewing (view-only), as shown in Figure 3.40.\n174 3 • Creating and Working in Documents",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.371898889541626,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:200:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 200]\nFigure 3.57 The spelling and grammar checking tool in Docs is similar to Word's. Always check that the suggestion is correct before accepting it. (Google Docs is a trademark of Google LLC.)\nAs in Word, Docs offers users the option to add words to a Personal dictionary, so that they are not flagged as errors by the spell-checker tool. To access the Personal dictionary, go to the Tools tab and hover your cursor over the Spelling and grammar command. In the drop-down menu that appears, select Personal dictionary. You can manually add words to it from there.\nCitations and Explore",
+        "context_ids": [
+          "B:200:3.8:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "voice typing microphone Tools menu",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:199:3.8:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 199,
+            "text": "The Tools menu options include spelling and grammar, citations, the Explore command, tools for reviewing changes in Suggesting mode, and the dictionary. The Docs Tools menu contains some of the same tools that are found on the Review tab in Word. These are tools and commands to make your document professional and polished, as well as enable collaboration. These tools make collaboration between cowriters and coeditors possible, as everyone can review the suggestions and comments, tag others in the comments, and add citations and references.\nSpelling and Grammar",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.46371668577194214,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:184:3.6:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 184,
+            "text": "Figure 3.39 The Format menu contains all the tools for modifying the text or whole document. (Google Docs is a trademark of Google LLC.)\nTools Menu",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.3630078218574637,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:181:3.6:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 181,
+            "text": "Figure 3.36 The Edit menu has the standard copy, cut, and paste commands. (Google Docs is a trademark of Google LLC.) View Menu",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.35550495982170105,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:200:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 200]\nFigure 3.57 The spelling and grammar checking tool in Docs is similar to Word's. Always check that the suggestion is correct before accepting it. (Google Docs is a trademark of Google LLC.)\nAs in Word, Docs offers users the option to add words to a Personal dictionary, so that they are not flagged as errors by the spell-checker tool. To access the Personal dictionary, go to the Tools tab and hover your cursor over the Spelling and grammar command. In the drop-down menu that appears, select Personal dictionary. You can manually add words to it from there.\nCitations and Explore",
+        "context_ids": [
+          "B:200:3.8:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "voice typing microphone enable Docs",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:199:3.8:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 199,
+            "text": "The Tools menu options include spelling and grammar, citations, the Explore command, tools for reviewing changes in Suggesting mode, and the dictionary. The Docs Tools menu contains some of the same tools that are found on the Review tab in Word. These are tools and commands to make your document professional and polished, as well as enable collaboration. These tools make collaboration between cowriters and coeditors possible, as everyone can review the suggestions and comments, tag others in the comments, and add citations and references.\nSpelling and Grammar",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.36565953493118286,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:200:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 200,
+            "text": "Figure 3.57 The spelling and grammar checking tool in Docs is similar to Word's. Always check that the suggestion is correct before accepting it. (Google Docs is a trademark of Google LLC.)\nAs in Word, Docs offers users the option to add words to a Personal dictionary, so that they are not flagged as errors by the spell-checker tool. To access the Personal dictionary, go to the Tools tab and hover your cursor over the Spelling and grammar command. In the drop-down menu that appears, select Personal dictionary. You can manually add words to it from there.\nCitations and Explore",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.3592699039852759,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:199:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 199,
+            "text": "program is its ability to facilitate collaboration among multiple users. People like to use Docs for the ease of sharing documents, tagging contacts, and inserting internet-enabled comments because these features make working together easy. Microsoft Office has these capabilities as well, but because Google is free to use, many people and small businesses prefer it. Nevertheless, many businesses use both because some features function better in one product, and other features function better in the other. Google's collaboration features have been part of the apps from their inception. These features allow real-time edits to be seen by other users. In the early drafts of the market trends report, you will use Docs for collaboration, because many in your department are more familiar with the",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.3248281180858612,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:200:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 200]\nFigure 3.57 The spelling and grammar checking tool in Docs is similar to Word's. Always check that the suggestion is correct before accepting it. (Google Docs is a trademark of Google LLC.)\nAs in Word, Docs offers users the option to add words to a Personal dictionary, so that they are not flagged as errors by the spell-checker tool. To access the Personal dictionary, go to the Tools tab and hover your cursor over the Spelling and grammar command. In the drop-down menu that appears, select Personal dictionary. You can manually add words to it from there.\nCitations and Explore",
+        "context_ids": [
+          "B:200:3.8:0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Google Docs voice typing"
+      },
+      {
+        "tool_call": "voice typing microphone Tools menu"
+      },
+      {
+        "tool_call": "voice typing microphone enable Docs"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 4,
+    "searches": 3,
+    "tokens_in": 2375,
+    "tokens_out": 127,
+    "cost_usd": 0.000781,
+    "seconds": 3.13,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  },
+  {
+    "query_id": "q24",
+    "split": "dev",
+    "answerable": false,
+    "question": "In Microsoft Word, how do you run a mail merge for many letters?",
+    "filter": {
+      "platform": "microsoft_word"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "mail merge Word letters",
+        "filter": {
+          "platform": "microsoft_word"
+        },
+        "results": [
+          {
+            "id": "B:153:3.1:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 153,
+            "text": "images that have been formatted and processed electronically. Hence, Word is a word processor, a type of program that contains a number of different text formatting capabilities for producing primarily text-based files and documents. This is an important distinction, as you can create any number of different text-based files in several different programs.",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.31867403872763944,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:161:3.3:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 161,
+            "text": "The default Word font is currently Calibri. (Formerly, it was Times New Roman, and could change again.) Fonts are described as either serif or sans serif (Figure 3.14). A serif font is one that has short lines on the ends of the parts of each letter, whereas a sans serif (\"without\" serif) font doesn't have those embellishments on the characters. Serif fonts are usually considered easier to read when there is a large amount of text being presented, and sans serif fonts are often considered to have a more contemporary look. For accessibility, 3.3 • Formatting Document Content in Microsoft Word 151",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.2891990793706084,
+            "strategy": "dense"
+          },
+          {
+            "id": "B:167:3.3:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 167,
+            "text": "de of it. If the image functions more as a design element, such as a logo or photo to add interest, you might have the text wrap around it.\n3.3 • Formatting Document Content in Microsoft Word 157",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.2747422427246281,
+            "strategy": "dense"
+          }
+        ],
+        "context": "[B:153:3.1:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 153]\nimages that have been formatted and processed electronically. Hence, Word is a word processor, a type of program that contains a number of different text formatting capabilities for producing primarily text-based files and documents. This is an important distinction, as you can create any number of different text-based files in several different programs.\n\n[B:167:3.3:3 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 167]\nde of it. If the image functions more as a design element, such as a logo or photo to add interest, you might have the text wrap around it.\n3.3 • Formatting Document Content in Microsoft Word 157",
+        "context_ids": [
+          "B:153:3.1:0",
+          "B:167:3.3:3"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "mail merge Word letters"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1110,
+    "tokens_out": 89,
+    "cost_usd": 0.000398,
+    "seconds": 1.76,
+    "error": null,
+    "config": {
+      "method": "dense",
+      "top_k": 3,
+      "budget_chars": 800,
+      "max_searches": 3,
+      "model": "deepseek-chat"
+    }
+  }
+]

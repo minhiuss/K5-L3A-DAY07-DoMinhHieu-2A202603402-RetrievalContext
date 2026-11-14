@@ -1,0 +1,308 @@
+[
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which Word tab contains font formatting, alignment, headings and the Find commands?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The Home tab contains the formatting of fonts, alignment, headings, numbering, and lists, as well as the Find commands [B:149:3.1:0].",
+    "citations": [
+      "B:149:3.1:0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Word Home tab font formatting alignment headings Find",
+        "filter": null,
+        "results": [
+          {
+            "id": "B:149:3.1:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 149,
+            "text": "Customization of the tabs was covered in the chapter on Essentials of Software Applications for Business. The next sections introduce some of the most important default tabs and their overall function, as well as the most-used commands, as Figure 3.2 shows.\nFigure 3.2 Notice there are several tabs, such as Home and Insert, that are common to all Office programs, as covered in Chapter 2. (Used with permission from Microsoft)\nHome Tab\nThe Home tab is where you will spend most of your time, as it contains the formatting of fonts, alignment, headings, numbering, and lists, as well as the Find commands. It is also the default tab that displays when you open your document. We will go over the Home tab commands in detail in Formatting Document Layout in Microsoft Word.\nInsert Tab",
+            "metadata": {
+              "section": "3.1",
+              "platform": "microsoft_word"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "B:161:3.3:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 161,
+            "text": "You want your WorldCorp market trends report to look professional. To achieve this, you need to consider how the content should be formatted for its intended audience. Formatting applied to content includes line spacing, font type and size, alignment, and the use of organizational features like headers. Many employees in the organization, including those in upper management, will view the report, so you need the report to show your professionalism and skills in your role in the marketing department.\nFormatting Font\nThere are many ways to change your text formatting in Microsoft Word. The most basic ways of adjusting your text are through the font, font size, and font style (bold, italic, or underlined).",
+            "metadata": {
+              "section": "3.3",
+              "platform": "microsoft_word"
+            },
+            "score": 0.031009615384615385,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "B:178:3.5:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 178,
+            "text": "change all of the Normal text and/or Headings font. Go to the bottom of the drop-down Fonts menu and select Customize Fonts. A new dialog box will appear with all the fonts installed in Office, as seen in Figure 3.33. Choose a new font and select Save and the headings will be changed.\nFigure 3.33 You can modify the fonts in components of a theme, such as headings, and they will change from (a) the default font associated with that theme to (b) the customized font you select to apply. (Used with permission from Microsoft) Page Background Command Group",
+            "metadata": {
+              "section": "3.5",
+              "platform": "general"
+            },
+            "score": 0.030798389007344232,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[B:149:3.1:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 149]\nCustomization of the tabs was covered in the chapter on Essentials of Software Applications for Business. The next sections introduce some of the most important default tabs and their overall function, as well as the most-used commands, as Figure 3.2 shows.\nFigure 3.2 Notice there are several tabs, such as Home and Insert, that are common to all Office programs, as covered in Chapter 2. (Used with permission from Microsoft)\nHome Tab\nThe Home tab is where you will spend most of your time, as it contains the formatting of fonts, alignment, headings, numbering, and lists, as well as the Find commands. It is also the default tab that displays when you open your document. We will go over the Home tab commands in detail in Formatting Document Layout in Microsoft Word.\nInsert Tab\n\n[B:161:3.3:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 161]\nYou want your WorldCorp market trends report to look professional. To achieve this, you need to consider how the content should be formatted for its intended audience. Formatting applied to content includes line spacing, font type and size, alignment, and the use of organizational features like headers. Many employees in the organization, including those in upper management, will view the report, so you need the report to show your professionalism and skills in your role in the marketing department.\nFormatting Font\nThere are many ways to change your text formatting in Microsoft Word. The most basic ways of adjusting your text are through the font, font size, and font style (bold, italic, or underlined).\n\n[B:178:3.5:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 178]\nchange all of the Normal text and/or Headings font. Go to the bottom of the drop-down Fonts menu and select Customize Fonts. A new dialog box will appear with all the fonts installed in Office, as seen in Figure 3.33. Choose a new font and select Save and the headings will be changed.\nFigure 3.33 You can modify the fonts in components of a theme, such as headings, and they will change from (a) the default font associated with that theme to (b) the customized font you select to apply. (Used with permission from Microsoft) Page Background Command Group",
+        "context_ids": [
+          "B:149:3.1:0",
+          "B:161:3.3:1",
+          "B:178:3.5:0"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Word Home tab font formatting alignment headings Find"
+      },
+      {
+        "text": "The Home tab contains the formatting of fonts, alignment, headings, numbering, and lists, as well as the Find commands [B:149:3.1:0]."
+      }
+    ],
+    "llm_calls": 2,
+    "searches": 1,
+    "tokens_in": 1466,
+    "tokens_out": 78,
+    "cost_usd": 0.000482,
+    "seconds": 1.81,
+    "error": null,
+    "config": {
+      "method": "hybrid",
+      "top_k": 3,
+      "budget_chars": 2400,
+      "max_searches": 3,
+      "model": "deepseek-chat",
+      "first_query_original": false,
+      "partial_ok": false
+    }
+  },
+  {
+    "query_id": "q23",
+    "split": "dev",
+    "answerable": false,
+    "question": "In Google Docs, how do you type by voice?",
+    "filter": {
+      "platform": "google_docs"
+    },
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Google Docs voice typing",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:203:3.8:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 203,
+            "text": "Figure 3.61 Using the Explore tool lets you add citations rapidly. (Google Docs is a trademark of Google LLC.) Suggesting Mode",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.030536130536130537,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "B:181:3.6:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 181,
+            "text": "Figure 3.36 The Edit menu has the standard copy, cut, and paste commands. (Google Docs is a trademark of Google LLC.) View Menu",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.030117753623188408,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "B:191:3.7:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 191,
+            "text": "Figure 3.47 You can choose indenting from the Format menu to indent selected text. (Google Docs is a trademark of Google LLC.) 3.7 • Formatting Layout and Content in Google Docs 181",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.029551337359792925,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[B:203:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 203]\nFigure 3.61 Using the Explore tool lets you add citations rapidly. (Google Docs is a trademark of Google LLC.) Suggesting Mode\n\n[B:181:3.6:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 181]\nFigure 3.36 The Edit menu has the standard copy, cut, and paste commands. (Google Docs is a trademark of Google LLC.) View Menu\n\n[B:191:3.7:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 191]\nFigure 3.47 You can choose indenting from the Format menu to indent selected text. (Google Docs is a trademark of Google LLC.) 3.7 • Formatting Layout and Content in Google Docs 181",
+        "context_ids": [
+          "B:203:3.8:0",
+          "B:181:3.6:1",
+          "B:191:3.7:0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "voice typing microphone Tools menu",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:184:3.6:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 184,
+            "text": "Figure 3.39 The Format menu contains all the tools for modifying the text or whole document. (Google Docs is a trademark of Google LLC.)\nTools Menu",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "B:199:3.8:3",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 199,
+            "text": "The Tools menu options include spelling and grammar, citations, the Explore command, tools for reviewing changes in Suggesting mode, and the dictionary. The Docs Tools menu contains some of the same tools that are found on the Review tab in Word. These are tools and commands to make your document professional and polished, as well as enable collaboration. These tools make collaboration between cowriters and coeditors possible, as everyone can review the suggestions and comments, tag others in the comments, and add citations and references.\nSpelling and Grammar",
+            "metadata": {
+              "section": "3.8",
+              "platform": "google_docs"
+            },
+            "score": 0.03252247488101534,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "B:180:3.6:2",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 180,
+            "text": "What tabs are to Word, menus are to Docs. In Word, the tools we use to prepare documents are arranged in tabs and then in command groups within those tabs. In Docs, the tools are arranged in menus instead of tabs. There are some similarities between the names of the menus and tabs: For example, you have the Insert tab in Word and the Insert menu in Docs. Docs also has a nice, user-friendly feature in which the tools that are used more frequently, such as some of the alignment tools and the font tools, are on a toolbar under the menu. This toolbar is called the action bar, and it is a static menu bar; it doesn't change, like Word's ribbon. This keeps those tools handy so that it is faster and easier for the user to change items in the document. Many of the tools on the action bar are simila",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.03125,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[B:203:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 203]\nFigure 3.61 Using the Explore tool lets you add citations rapidly. (Google Docs is a trademark of Google LLC.) Suggesting Mode\n\n[B:181:3.6:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 181]\nFigure 3.36 The Edit menu has the standard copy, cut, and paste commands. (Google Docs is a trademark of Google LLC.) View Menu\n\n[B:191:3.7:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 191]\nFigure 3.47 You can choose indenting from the Format menu to indent selected text. (Google Docs is a trademark of Google LLC.) 3.7 • Formatting Layout and Content in Google Docs 181\n\n[B:184:3.6:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 184]\nFigure 3.39 The Format menu contains all the tools for modifying the text or whole document. (Google Docs is a trademark of Google LLC.)\nTools Menu\n\n[B:199:3.8:3 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 199]\nThe Tools menu options include spelling and grammar, citations, the Explore command, tools for reviewing changes in Suggesting mode, and the dictionary. The Docs Tools menu contains some of the same tools that are found on the Review tab in Word. These are tools and commands to make your document professional and polished, as well as enable collaboration. These tools make collaboration between cowriters and coeditors possible, as everyone can review the suggestions and comments, tag others in the comments, and add citations and references.\nSpelling and Grammar",
+        "context_ids": [
+          "B:203:3.8:0",
+          "B:181:3.6:1",
+          "B:191:3.7:0",
+          "B:184:3.6:0",
+          "B:199:3.8:3"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "voice typing microphone speak text Google Docs",
+        "filter": {
+          "platform": "google_docs"
+        },
+        "results": [
+          {
+            "id": "B:184:3.6:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 184,
+            "text": "Figure 3.39 The Format menu contains all the tools for modifying the text or whole document. (Google Docs is a trademark of Google LLC.)\nTools Menu",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.031746031746031744,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "B:191:3.7:0",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 191,
+            "text": "Figure 3.47 You can choose indenting from the Format menu to indent selected text. (Google Docs is a trademark of Google LLC.) 3.7 • Formatting Layout and Content in Google Docs 181",
+            "metadata": {
+              "section": "3.7",
+              "platform": "google_docs"
+            },
+            "score": 0.030679156908665108,
+            "strategy": "hybrid"
+          },
+          {
+            "id": "B:181:3.6:1",
+            "source_id": "openstax-wss-ch3",
+            "source": "Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf",
+            "page": 181,
+            "text": "Figure 3.36 The Edit menu has the standard copy, cut, and paste commands. (Google Docs is a trademark of Google LLC.) View Menu",
+            "metadata": {
+              "section": "3.6",
+              "platform": "google_docs"
+            },
+            "score": 0.029418126757516764,
+            "strategy": "hybrid"
+          }
+        ],
+        "context": "[B:203:3.8:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 203]\nFigure 3.61 Using the Explore tool lets you add citations rapidly. (Google Docs is a trademark of Google LLC.) Suggesting Mode\n\n[B:181:3.6:1 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 181]\nFigure 3.36 The Edit menu has the standard copy, cut, and paste commands. (Google Docs is a trademark of Google LLC.) View Menu\n\n[B:191:3.7:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 191]\nFigure 3.47 You can choose indenting from the Format menu to indent selected text. (Google Docs is a trademark of Google LLC.) 3.7 • Formatting Layout and Content in Google Docs 181\n\n[B:184:3.6:0 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 184]\nFigure 3.39 The Format menu contains all the tools for modifying the text or whole document. (Google Docs is a trademark of Google LLC.)\nTools Menu\n\n[B:199:3.8:3 | Workplace_Software_and_Skills_-_WEB_IlfJtcP.pdf | page 199]\nThe Tools menu options include spelling and grammar, citations, the Explore command, tools for reviewing changes in Suggesting mode, and the dictionary. The Docs Tools menu contains some of the same tools that are found on the Review tab in Word. These are tools and commands to make your document professional and polished, as well as enable collaboration. These tools make collaboration between cowriters and coeditors possible, as everyone can review the suggestions and comments, tag others in the comments, and add citations and references.\nSpelling and Grammar",
+        "context_ids": [
+          "B:203:3.8:0",
+          "B:181:3.6:1",
+          "B:191:3.7:0",
+          "B:184:3.6:0",
+          "B:199:3.8:3"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "model_raw": [
+      {
+        "tool_call": "Google Docs voice typing"
+      },
+      {
+        "tool_call": "voice typing microphone Tools menu"
+      },
+      {
+        "tool_call": "voice typing microphone speak text Google Docs"
+      },
+      {
+        "text": "INSUFFICIENT_EVIDENCE"
+      }
+    ],
+    "llm_calls": 4,
+    "searches": 3,
+    "tokens_in": 2933,
+    "tokens_out": 163,
+    "cost_usd": 0.000971,
+    "seconds": 3.18,
+    "error": null,
+    "config": {
+      "method": "hybrid",
+      "top_k": 3,
+      "budget_chars": 2400,
+      "max_searches": 3,
+      "model": "deepseek-chat",
+      "first_query_original": false,
+      "partial_ok": false
+    }
+  }
+]
